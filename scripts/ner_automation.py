@@ -1,16 +1,14 @@
-import json
-import pandas as pd
 import sys
 import os
-import csv
-import logging
-from utils.openai_client import client
-from scripts.prompt import prompt
-
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-
+import json
+import pandas as pd
+import csv
+import logging
+import re
+from utils.openai_client import client
+from scripts.prompt import prompt
 
 logging.basicConfig(level=logging.INFO, filename='ner_automation.log', filemode='a',
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -224,4 +222,3 @@ def process_dataframe_ner(df, summary_column_name, court_title_column_name, case
             print(f"Error processing row {index}: {ner_result['error']}")
     ner_df = pd.DataFrame(ner_results)
     return ner_df
-

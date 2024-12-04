@@ -1,2 +1,13 @@
 2024-12-03 19:24:31,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
 2024-12-03 19:24:31,622 - ERROR - Error in automate_ner for case_id=1: Error code: 401 - {'error': {'message': 'Incorrect API key provided: key. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-12-03 19:31:23,982 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-03 19:31:23,986 - ERROR - Error in automate_ner for case_id=1: Error code: 400 - {'error': {'message': "Invalid type for 'messages[1].content[0]': expected an object, but got a string instead.", 'type': 'invalid_request_error', 'param': 'messages[1].content[0]', 'code': 'invalid_type'}}
+2024-12-03 19:34:51,187 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-03 19:34:51,190 - ERROR - Error in automate_ner for case_id=1: Error code: 400 - {'error': {'message': "Invalid type for 'messages[1].content[0]': expected an object, but got a string instead.", 'type': 'invalid_request_error', 'param': 'messages[1].content[0]', 'code': 'invalid_type'}}
+2024-12-03 19:36:21,722 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-03 19:36:21,724 - ERROR - Error in automate_ner for case_id=1: Error code: 400 - {'error': {'message': "Invalid type for 'messages[1].content[0]': expected an object, but got a string instead.", 'type': 'invalid_request_error', 'param': 'messages[1].content[0]', 'code': 'invalid_type'}}
+2024-12-03 19:39:00,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-03 19:39:00,902 - ERROR - Error in automate_ner for case_id=1: name 're' is not defined
+2024-12-03 19:52:31,907 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-03 19:54:47,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-03 19:57:31,177 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
