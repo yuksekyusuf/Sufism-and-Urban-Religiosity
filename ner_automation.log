@@ -1,0 +1,2 @@
+2024-12-03 19:24:31,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-12-03 19:24:31,622 - ERROR - Error in automate_ner for case_id=1: Error code: 401 - {'error': {'message': 'Incorrect API key provided: key. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}

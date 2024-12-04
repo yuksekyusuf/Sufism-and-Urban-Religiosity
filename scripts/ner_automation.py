@@ -224,3 +224,4 @@ def process_dataframe_ner(df, summary_column_name, court_title_column_name, case
             print(f"Error processing row {index}: {ner_result['error']}")
     ner_df = pd.DataFrame(ner_results)
     return ner_df
+
