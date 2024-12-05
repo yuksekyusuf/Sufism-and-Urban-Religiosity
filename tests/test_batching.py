@@ -11,7 +11,7 @@ from scripts.ner_automation import process_dataframe_ner
 
 
 
-def create_sample_df(size=15):
+def create_sample_df(size=10):
     """Create a sample DataFrame with realistic Ottoman legal document examples"""
     data = []
     for i in range(size):
@@ -29,7 +29,7 @@ def create_sample_df(size=15):
 
 def test_batch_processing():
     # Create sample data
-    df = create_sample_df(15)
+    df = create_sample_df(10)
     print(f"Created test DataFrame with {len(df)} rows")
     
     try:
@@ -39,7 +39,7 @@ def test_batch_processing():
             summary_column_name='summary',
             court_title_column_name='court',
             case_id_column_name='case_id',
-            output_file='test_ner_results2.csv'
+            output_file='new_ner_test.csv'
         )
         
         # Simulate interruption halfway
@@ -52,8 +52,8 @@ def test_batch_processing():
         
         # Resume processing
         try:
-            if os.path.exists('test_ner_results2.csv'):
-                existing_results = pd.read_csv('test_ner_results2.csv')
+            if os.path.exists('new_ner_test.csv'):
+                existing_results = pd.read_csv('new_ner_test.csv')
                 last_processed = existing_results['row_index'].max()
                 print(f"\nLast processed row index: {last_processed}")
                 resume_index = last_processed + 1
@@ -67,7 +67,7 @@ def test_batch_processing():
                 summary_column_name='summary',
                 court_title_column_name='court',
                 case_id_column_name='case_id',
-                output_file='test_ner_results2.csv',
+                output_file='new_ner_test.csv',
                 resume_from_index=resume_index
             )
             

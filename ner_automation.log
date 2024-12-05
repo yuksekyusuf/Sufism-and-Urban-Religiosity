@@ -136,3 +136,23 @@
 2024-12-05 00:38:34 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-12-05 00:38:34 - INFO - Starting NER processing for case_id: CASE_014
 2024-12-05 00:38:38 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:12 - INFO - Starting NER processing for case_id: CASE_000
+2024-12-05 15:19:15 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:15 - INFO - Starting NER processing for case_id: CASE_001
+2024-12-05 15:19:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:19 - INFO - Starting NER processing for case_id: CASE_002
+2024-12-05 15:19:23 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:23 - INFO - Starting NER processing for case_id: CASE_003
+2024-12-05 15:19:27 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:27 - INFO - Starting NER processing for case_id: CASE_004
+2024-12-05 15:19:31 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:31 - INFO - Starting NER processing for case_id: CASE_005
+2024-12-05 15:19:35 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:35 - INFO - Starting NER processing for case_id: CASE_006
+2024-12-05 15:19:47 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:47 - INFO - Starting NER processing for case_id: CASE_007
+2024-12-05 15:19:52 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:52 - INFO - Starting NER processing for case_id: CASE_008
+2024-12-05 15:19:56 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-05 15:19:56 - INFO - Starting NER processing for case_id: CASE_009
+2024-12-05 15:20:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
