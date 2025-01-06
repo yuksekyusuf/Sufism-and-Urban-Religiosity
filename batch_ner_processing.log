@@ -1,225 +1,366 @@
-2024-12-05 00:57:02 - INFO - Preparing batch tasks...
-2024-12-05 00:57:02 - INFO - Created batch file with 3 tasks
-2024-12-05 00:57:03 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 00:57:03 - INFO - Batch file uploaded: file-G1Jut6cDv3arnBYrNMnhqF
-2024-12-05 00:57:04 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 00:57:04 - INFO - Batch job created: batch_675140b0af548191a3f21173ad3ef0ea
-2024-12-05 00:57:05 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 00:57:05 - INFO - Batch job status: validating
-2024-12-05 00:58:05 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 00:58:05 - INFO - Batch job status: in_progress
-2024-12-05 00:59:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 00:59:06 - INFO - Batch job status: in_progress
-2024-12-05 01:00:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:00:06 - INFO - Batch job status: in_progress
-2024-12-05 01:01:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:01:06 - INFO - Batch job status: in_progress
-2024-12-05 01:02:07 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:02:07 - INFO - Batch job status: in_progress
-2024-12-05 01:03:07 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:03:07 - INFO - Batch job status: in_progress
-2024-12-05 01:04:08 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:04:08 - INFO - Batch job status: in_progress
-2024-12-05 01:05:08 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:05:08 - INFO - Batch job status: in_progress
-2024-12-05 01:06:08 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:06:08 - INFO - Batch job status: in_progress
-2024-12-05 01:07:09 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:07:09 - INFO - Batch job status: in_progress
-2024-12-05 01:08:09 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:08:09 - INFO - Batch job status: in_progress
-2024-12-05 01:09:09 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:09:09 - INFO - Batch job status: in_progress
-2024-12-05 01:10:10 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:10:10 - INFO - Batch job status: in_progress
-2024-12-05 01:11:10 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:11:10 - INFO - Batch job status: in_progress
-2024-12-05 01:12:10 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:12:10 - INFO - Batch job status: in_progress
-2024-12-05 01:13:11 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:13:11 - INFO - Batch job status: in_progress
-2024-12-05 01:14:12 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:14:12 - INFO - Batch job status: in_progress
-2024-12-05 01:15:12 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:15:12 - INFO - Batch job status: in_progress
-2024-12-05 01:16:12 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:16:12 - INFO - Batch job status: in_progress
-2024-12-05 01:17:13 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:17:13 - INFO - Batch job status: in_progress
-2024-12-05 01:18:13 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:18:13 - INFO - Batch job status: in_progress
-2024-12-05 01:19:14 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:19:14 - INFO - Batch job status: in_progress
-2024-12-05 01:20:14 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:20:14 - INFO - Batch job status: in_progress
-2024-12-05 01:21:14 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:21:14 - INFO - Batch job status: in_progress
-2024-12-05 01:22:15 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:22:15 - INFO - Batch job status: in_progress
-2024-12-05 01:23:15 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:23:15 - INFO - Batch job status: in_progress
-2024-12-05 01:24:15 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:24:15 - INFO - Batch job status: in_progress
-2024-12-05 01:25:16 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:25:16 - INFO - Batch job status: in_progress
-2024-12-05 01:26:16 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:26:16 - INFO - Batch job status: in_progress
-2024-12-05 01:27:16 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:27:16 - INFO - Batch job status: in_progress
-2024-12-05 01:28:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:28:17 - INFO - Batch job status: in_progress
-2024-12-05 01:29:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:29:17 - INFO - Batch job status: in_progress
-2024-12-05 01:30:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:30:17 - INFO - Batch job status: in_progress
-2024-12-05 01:31:18 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:31:18 - INFO - Batch job status: in_progress
-2024-12-05 01:32:18 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:32:18 - INFO - Batch job status: in_progress
-2024-12-05 01:33:18 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:33:18 - INFO - Batch job status: in_progress
-2024-12-05 01:34:19 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:34:19 - INFO - Batch job status: in_progress
-2024-12-05 01:35:19 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:35:19 - INFO - Batch job status: in_progress
-2024-12-05 01:36:19 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:36:19 - INFO - Batch job status: in_progress
-2024-12-05 01:37:20 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:37:20 - INFO - Batch job status: in_progress
-2024-12-05 01:38:20 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:38:20 - INFO - Batch job status: in_progress
-2024-12-05 01:39:21 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:39:21 - INFO - Batch job status: in_progress
-2024-12-05 01:40:21 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:40:21 - INFO - Batch job status: in_progress
-2024-12-05 01:41:21 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:41:21 - INFO - Batch job status: in_progress
-2024-12-05 01:42:22 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:42:22 - INFO - Batch job status: in_progress
-2024-12-05 01:43:22 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:43:22 - INFO - Batch job status: in_progress
-2024-12-05 01:44:22 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:44:22 - INFO - Batch job status: in_progress
-2024-12-05 01:45:23 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:45:23 - INFO - Batch job status: in_progress
-2024-12-05 01:46:23 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:46:23 - INFO - Batch job status: in_progress
-2024-12-05 01:47:23 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:47:23 - INFO - Batch job status: in_progress
-2024-12-05 01:48:24 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:48:24 - INFO - Batch job status: in_progress
-2024-12-05 01:49:24 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:49:24 - INFO - Batch job status: in_progress
-2024-12-05 01:50:25 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:50:25 - INFO - Batch job status: in_progress
-2024-12-05 01:51:25 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:51:25 - INFO - Batch job status: in_progress
-2024-12-05 01:52:25 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675140b0af548191a3f21173ad3ef0ea "HTTP/1.1 200 OK"
-2024-12-05 01:52:25 - INFO - Batch job status: in_progress
-2024-12-05 01:54:21 - INFO - Preparing batch tasks...
-2024-12-05 01:54:21 - INFO - Created batch file with 2 tasks
-2024-12-05 01:54:22 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 01:54:22 - INFO - Batch file uploaded: file-4ShxVCXJynAkGofnELmbVN
-2024-12-05 01:54:23 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 01:54:23 - INFO - Batch job created: batch_67514e1f06248191b1e02d84fd08979a
-2024-12-05 01:54:23 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_67514e1f06248191b1e02d84fd08979a "HTTP/1.1 200 OK"
-2024-12-05 01:54:23 - INFO - Job batch_67514e1f06248191b1e02d84fd08979a status: validating
-2024-12-05 02:25:58 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_67514e1f06248191b1e02d84fd08979a "HTTP/1.1 200 OK"
-2024-12-05 02:25:58 - INFO - Job batch_67514e1f06248191b1e02d84fd08979a status: completed
-2024-12-05 02:26:55 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_67514e1f06248191b1e02d84fd08979a "HTTP/1.1 200 OK"
-2024-12-05 02:26:55 - ERROR - Error processing batch results for job batch_67514e1f06248191b1e02d84fd08979a: Expected a non-empty value for `file_id` but received None
-2024-12-05 02:47:33 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/file-4ShxVCXJynAkGofnELmbVN "HTTP/1.1 400 Bad Request"
-2024-12-05 02:47:33 - ERROR - Error processing batch results for job file-4ShxVCXJynAkGofnELmbVN: Error code: 400 - {'error': {'message': "Invalid 'batch_id': 'file-4ShxVCXJynAkGofnELmbVN'. Expected an ID that begins with 'batch'.", 'type': 'invalid_request_error', 'param': 'batch_id', 'code': 'invalid_value'}}
-2024-12-05 14:30:16 - INFO - Preparing batch tasks...
-2024-12-05 14:30:16 - INFO - Created batch file with 2 tasks
-2024-12-05 14:30:16 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 14:30:16 - INFO - Batch file uploaded: file-VHWRihNF1V3xPvz15uqQxG
-2024-12-05 14:30:17 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 14:30:17 - INFO - Batch job created: batch_6751ff497ecc8191a9c5c0b195d46f31
-2024-12-05 14:30:18 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6751ff497ecc8191a9c5c0b195d46f31 "HTTP/1.1 200 OK"
-2024-12-05 14:30:18 - INFO - Job batch_6751ff497ecc8191a9c5c0b195d46f31 status: validating
-2024-12-05 14:32:22 - INFO - Preparing batch tasks...
-2024-12-05 14:32:22 - INFO - Created batch file with 2 tasks
-2024-12-05 14:32:23 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 14:32:23 - INFO - Batch file uploaded: file-9qHFLzp5T8mSyM8Pv1cJtB
-2024-12-05 14:32:24 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 14:32:24 - INFO - Batch job created: batch_6751ffc7ee0c8191b178cbf9f261e696
-2024-12-05 14:32:24 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6751ffc7ee0c8191b178cbf9f261e696 "HTTP/1.1 200 OK"
-2024-12-05 14:32:24 - INFO - Job batch_6751ffc7ee0c8191b178cbf9f261e696 status: validating
-2024-12-05 14:37:14 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/file-9qHFLzp5T8mSyM8Pv1cJtB "HTTP/1.1 400 Bad Request"
-2024-12-05 14:37:14 - ERROR - Error processing batch results for job file-9qHFLzp5T8mSyM8Pv1cJtB: Error code: 400 - {'error': {'message': "Invalid 'batch_id': 'file-9qHFLzp5T8mSyM8Pv1cJtB'. Expected an ID that begins with 'batch'.", 'type': 'invalid_request_error', 'param': 'batch_id', 'code': 'invalid_value'}}
-2024-12-05 14:37:38 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/file-9qHFLzp5T8mSyM8Pv1cJtB "HTTP/1.1 400 Bad Request"
-2024-12-05 14:37:38 - ERROR - Error checking batch status for job file-9qHFLzp5T8mSyM8Pv1cJtB: Error code: 400 - {'error': {'message': "Invalid 'batch_id': 'file-9qHFLzp5T8mSyM8Pv1cJtB'. Expected an ID that begins with 'batch'.", 'type': 'invalid_request_error', 'param': 'batch_id', 'code': 'invalid_value'}}
-2024-12-05 14:37:58 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6751ff497ecc8191a9c5c0b195d46f31 "HTTP/1.1 200 OK"
-2024-12-05 14:37:58 - INFO - Job batch_6751ff497ecc8191a9c5c0b195d46f31 status: cancelling
-2024-12-05 14:38:07 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6751ff497ecc8191a9c5c0b195d46f31 "HTTP/1.1 200 OK"
-2024-12-05 14:38:07 - INFO - Job batch_6751ff497ecc8191a9c5c0b195d46f31 status: cancelling
-2024-12-05 14:51:19 - INFO - Preparing batch tasks...
-2024-12-05 14:51:19 - INFO - Created batch file with 2 tasks
-2024-12-05 14:51:20 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 14:51:20 - INFO - Batch file uploaded: file-RrKy6VTHRodpFePjX5QsdL
-2024-12-05 14:51:20 - ERROR - Error submitting batch job: Batches.create() got an unexpected keyword argument 'model'
-2024-12-05 14:54:16 - INFO - Preparing batch tasks...
-2024-12-05 14:54:16 - INFO - Created batch file with 2 tasks
-2024-12-05 14:54:19 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 14:54:19 - INFO - Batch file uploaded: file-34FGtyoTLgLoo3EpB1iLev
-2024-12-05 14:54:20 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 14:54:20 - INFO - Batch job created: batch_675204ec03e0819197d9efb41d0808e3
-2024-12-05 14:54:20 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675204ec03e0819197d9efb41d0808e3 "HTTP/1.1 200 OK"
-2024-12-05 14:54:20 - INFO - Job batch_675204ec03e0819197d9efb41d0808e3 status: validating
-2024-12-05 14:55:44 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675204ec03e0819197d9efb41d0808e3 "HTTP/1.1 200 OK"
-2024-12-05 14:55:44 - INFO - Job batch_675204ec03e0819197d9efb41d0808e3 status: finalizing
-2024-12-05 14:55:54 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675204ec03e0819197d9efb41d0808e3 "HTTP/1.1 200 OK"
-2024-12-05 14:55:54 - ERROR - Error processing batch results for job batch_675204ec03e0819197d9efb41d0808e3: Expected a non-empty value for `file_id` but received None
-2024-12-05 14:56:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/file-34FGtyoTLgLoo3EpB1iLev "HTTP/1.1 400 Bad Request"
-2024-12-05 14:56:17 - ERROR - Error processing batch results for job file-34FGtyoTLgLoo3EpB1iLev: Error code: 400 - {'error': {'message': "Invalid 'batch_id': 'file-34FGtyoTLgLoo3EpB1iLev'. Expected an ID that begins with 'batch'.", 'type': 'invalid_request_error', 'param': 'batch_id', 'code': 'invalid_value'}}
-2024-12-05 14:56:32 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch-34FGtyoTLgLoo3EpB1iLev "HTTP/1.1 404 Not Found"
-2024-12-05 14:56:32 - ERROR - Error processing batch results for job batch-34FGtyoTLgLoo3EpB1iLev: Error code: 404 - {'error': {'message': "No batch found with id 'batch-34FGtyoTLgLoo3EpB1iLev'.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 14:56:56 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675204ec03e0819197d9efb41d0808e3 "HTTP/1.1 200 OK"
-2024-12-05 14:56:56 - ERROR - Error processing batch results for job batch_675204ec03e0819197d9efb41d0808e3: Expected a non-empty value for `file_id` but received None
-2024-12-05 15:49:52 - INFO - Preparing batch tasks...
-2024-12-05 15:49:52 - INFO - Created batch file with 2 tasks
-2024-12-05 15:49:53 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 15:49:53 - INFO - Batch file uploaded: file-8jyqZTtZZozZwWLSdQKzh1
-2024-12-05 15:49:54 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 15:49:54 - INFO - Batch job created: batch_675211f1b220819197c8459a7469bd8d
-2024-12-05 15:49:54 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675211f1b220819197c8459a7469bd8d "HTTP/1.1 200 OK"
-2024-12-05 15:49:54 - INFO - Job batch_675211f1b220819197c8459a7469bd8d status: validating
-2024-12-05 15:52:45 - INFO - Preparing batch tasks...
-2024-12-05 15:52:45 - INFO - Created batch file with 2 tasks
-2024-12-05 15:52:46 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 15:52:46 - INFO - Batch file uploaded: file-JbPKC2m8NYqk5y5JQJuXnV
-2024-12-05 15:52:46 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 15:52:46 - INFO - Batch job created: batch_6752129ebdf881918611d5a9adc0d4d3
-2024-12-05 15:52:47 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6752129ebdf881918611d5a9adc0d4d3 "HTTP/1.1 200 OK"
-2024-12-05 15:52:47 - INFO - Job batch_6752129ebdf881918611d5a9adc0d4d3 status: validating
-2024-12-05 15:54:26 - INFO - Preparing batch tasks...
-2024-12-05 15:54:26 - INFO - Created batch file with 2 tasks
-2024-12-05 15:54:26 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2024-12-05 15:54:26 - INFO - Batch file uploaded: file-XpsdZmkgJ6KK5PVADY2Dec
-2024-12-05 15:54:28 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2024-12-05 15:54:28 - INFO - Batch job created: batch_675213039d708191b92c4211603a978a
-2024-12-05 15:54:28 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_675213039d708191b92c4211603a978a "HTTP/1.1 200 OK"
-2024-12-05 15:54:28 - INFO - Job batch_675213039d708191b92c4211603a978a status: validating
-2024-12-05 15:54:55 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6752129ebdf881918611d5a9adc0d4d3 "HTTP/1.1 200 OK"
-2024-12-05 15:54:56 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-8icYG8YYqYPgeUzhvqEeQL/content "HTTP/1.1 200 OK"
-2024-12-05 15:54:56 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/[%7B'id':%20'batch_req_675212a580208190bcd8c9d396aa660b',%20'custom_id':%20'Court_1_TEST_001',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'25cb40cd32b07d8c539b0fcdd29dbfce',%20'body':%20%7B'id':%20'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_1',\n%20%20%20%20%20%20'name':%20'Mehmed%20Efendi%20b.%20Abdullah',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'Efendi']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_2',\n%20%20%20%20%20%20'name':%20'Kirkor%20v.%20Yanos',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Armenian',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20[]\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Istanbul%20Mahmutpa%C5%9Fa',\n%20%20%20%20%20%20'place_type':%20'district'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'Ramadan%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'November%201839'\n%20%20],\n%20%20'legal_case_type':%20'Property%20Disputes',\n%20%20'case_result':%20'Settlement',\n%20%20'case_result_type':%20'Mediation'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201461,%20'completion_tokens':%20266,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D,%20%7B'id':%20'batch_req_675212a58e44819081ab1fd4b4f12b37',%20'custom_id':%20'Court_2_TEST_002',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'9ac58968123421a12f1f52e5e39f8d1d',%20'body':%20%7B'id':%20'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_1',\n%20%20%20%20%20%20'name':%20'Dervi%C5%9F%20Ahmed',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'Sufi',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['Dervi%C5%9F']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_2',\n%20%20%20%20%20%20'name':%20'H%C3%BCseyin%20A%C4%9Fa',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'A%C4%9Fa']\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Ey%C3%BCp',\n%20%20%20%20%20%20'place_type':%20'City'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'%C5%9Eevval%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'December%201839'\n%20%20],\n%20%20'legal_case_type':%20'Debt/Loan%20Agreements',\n%20%20'case_result':%20'Resolved%20in%20favor%20of%20es-Seyyid%20H%C3%BCseyin%20A%C4%9Fa',\n%20%20'case_result_type':%20'Resolution%20by%20oath'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201452,%20'completion_tokens':%20275,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D] "HTTP/1.1 404 Not Found"
-2024-12-05 15:54:56 - ERROR - Error processing batch results for job [{'id': 'batch_req_675212a580208190bcd8c9d396aa660b', 'custom_id': 'Court_1_TEST_001', 'response': {'status_code': 200, 'request_id': '25cb40cd32b07d8c539b0fcdd29dbfce', 'body': {'id': 'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'istanbul_case_1_1',\n      'name': 'Mehmed Efendi b. Abdullah',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Plaintiff',\n      'titles': ['es-Seyyid', 'Efendi']\n    },\n    {\n      'person_id': 'istanbul_case_1_2',\n      'name': 'Kirkor v. Yanos',\n      'gender': 'Man',\n      'religion_ethnicity': 'Armenian',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': []\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Istanbul Mahmutpaşa',\n      'place_type': 'district'\n    }\n  ],\n  'hijri_dates': [\n    'Ramadan 1255'\n  ],\n  'miladi_dates': [\n    'November 1839'\n  ],\n  'legal_case_type': 'Property Disputes',\n  'case_result': 'Settlement',\n  'case_result_type': 'Mediation'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1461, 'completion_tokens': 266, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}, {'id': 'batch_req_675212a58e44819081ab1fd4b4f12b37', 'custom_id': 'Court_2_TEST_002', 'response': {'status_code': 200, 'request_id': '9ac58968123421a12f1f52e5e39f8d1d', 'body': {'id': 'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'eyüp_case_1_1',\n      'name': 'Derviş Ahmed',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'Sufi',\n      'role_in_case': 'Plaintiff',\n      'titles': ['Derviş']\n    },\n    {\n      'person_id': 'eyüp_case_1_2',\n      'name': 'Hüseyin Ağa',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': ['es-Seyyid', 'Ağa']\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Eyüp',\n      'place_type': 'City'\n    }\n  ],\n  'hijri_dates': [\n    'Şevval 1255'\n  ],\n  'miladi_dates': [\n    'December 1839'\n  ],\n  'legal_case_type': 'Debt/Loan Agreements',\n  'case_result': 'Resolved in favor of es-Seyyid Hüseyin Ağa',\n  'case_result_type': 'Resolution by oath'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1452, 'completion_tokens': 275, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}]: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 15:54:56 - ERROR - Error processing batch results for job batch_6752129ebdf881918611d5a9adc0d4d3: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 15:56:00 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6752129ebdf881918611d5a9adc0d4d3 "HTTP/1.1 200 OK"
-2024-12-05 15:56:01 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-8icYG8YYqYPgeUzhvqEeQL/content "HTTP/1.1 200 OK"
-2024-12-05 15:56:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/[%7B'id':%20'batch_req_675212a580208190bcd8c9d396aa660b',%20'custom_id':%20'Court_1_TEST_001',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'25cb40cd32b07d8c539b0fcdd29dbfce',%20'body':%20%7B'id':%20'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_1',\n%20%20%20%20%20%20'name':%20'Mehmed%20Efendi%20b.%20Abdullah',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'Efendi']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_2',\n%20%20%20%20%20%20'name':%20'Kirkor%20v.%20Yanos',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Armenian',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20[]\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Istanbul%20Mahmutpa%C5%9Fa',\n%20%20%20%20%20%20'place_type':%20'district'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'Ramadan%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'November%201839'\n%20%20],\n%20%20'legal_case_type':%20'Property%20Disputes',\n%20%20'case_result':%20'Settlement',\n%20%20'case_result_type':%20'Mediation'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201461,%20'completion_tokens':%20266,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D,%20%7B'id':%20'batch_req_675212a58e44819081ab1fd4b4f12b37',%20'custom_id':%20'Court_2_TEST_002',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'9ac58968123421a12f1f52e5e39f8d1d',%20'body':%20%7B'id':%20'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_1',\n%20%20%20%20%20%20'name':%20'Dervi%C5%9F%20Ahmed',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'Sufi',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['Dervi%C5%9F']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_2',\n%20%20%20%20%20%20'name':%20'H%C3%BCseyin%20A%C4%9Fa',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'A%C4%9Fa']\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Ey%C3%BCp',\n%20%20%20%20%20%20'place_type':%20'City'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'%C5%9Eevval%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'December%201839'\n%20%20],\n%20%20'legal_case_type':%20'Debt/Loan%20Agreements',\n%20%20'case_result':%20'Resolved%20in%20favor%20of%20es-Seyyid%20H%C3%BCseyin%20A%C4%9Fa',\n%20%20'case_result_type':%20'Resolution%20by%20oath'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201452,%20'completion_tokens':%20275,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D] "HTTP/1.1 404 Not Found"
-2024-12-05 15:56:01 - ERROR - Error processing batch results for job [{'id': 'batch_req_675212a580208190bcd8c9d396aa660b', 'custom_id': 'Court_1_TEST_001', 'response': {'status_code': 200, 'request_id': '25cb40cd32b07d8c539b0fcdd29dbfce', 'body': {'id': 'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'istanbul_case_1_1',\n      'name': 'Mehmed Efendi b. Abdullah',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Plaintiff',\n      'titles': ['es-Seyyid', 'Efendi']\n    },\n    {\n      'person_id': 'istanbul_case_1_2',\n      'name': 'Kirkor v. Yanos',\n      'gender': 'Man',\n      'religion_ethnicity': 'Armenian',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': []\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Istanbul Mahmutpaşa',\n      'place_type': 'district'\n    }\n  ],\n  'hijri_dates': [\n    'Ramadan 1255'\n  ],\n  'miladi_dates': [\n    'November 1839'\n  ],\n  'legal_case_type': 'Property Disputes',\n  'case_result': 'Settlement',\n  'case_result_type': 'Mediation'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1461, 'completion_tokens': 266, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}, {'id': 'batch_req_675212a58e44819081ab1fd4b4f12b37', 'custom_id': 'Court_2_TEST_002', 'response': {'status_code': 200, 'request_id': '9ac58968123421a12f1f52e5e39f8d1d', 'body': {'id': 'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'eyüp_case_1_1',\n      'name': 'Derviş Ahmed',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'Sufi',\n      'role_in_case': 'Plaintiff',\n      'titles': ['Derviş']\n    },\n    {\n      'person_id': 'eyüp_case_1_2',\n      'name': 'Hüseyin Ağa',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': ['es-Seyyid', 'Ağa']\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Eyüp',\n      'place_type': 'City'\n    }\n  ],\n  'hijri_dates': [\n    'Şevval 1255'\n  ],\n  'miladi_dates': [\n    'December 1839'\n  ],\n  'legal_case_type': 'Debt/Loan Agreements',\n  'case_result': 'Resolved in favor of es-Seyyid Hüseyin Ağa',\n  'case_result_type': 'Resolution by oath'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1452, 'completion_tokens': 275, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}]: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 15:56:01 - ERROR - Error processing batch results for job batch_6752129ebdf881918611d5a9adc0d4d3: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 16:02:26 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6752129ebdf881918611d5a9adc0d4d3 "HTTP/1.1 200 OK"
-2024-12-05 16:02:26 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-8icYG8YYqYPgeUzhvqEeQL/content "HTTP/1.1 200 OK"
-2024-12-05 16:02:26 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/[%7B'id':%20'batch_req_675212a580208190bcd8c9d396aa660b',%20'custom_id':%20'Court_1_TEST_001',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'25cb40cd32b07d8c539b0fcdd29dbfce',%20'body':%20%7B'id':%20'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_1',\n%20%20%20%20%20%20'name':%20'Mehmed%20Efendi%20b.%20Abdullah',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'Efendi']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_2',\n%20%20%20%20%20%20'name':%20'Kirkor%20v.%20Yanos',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Armenian',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20[]\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Istanbul%20Mahmutpa%C5%9Fa',\n%20%20%20%20%20%20'place_type':%20'district'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'Ramadan%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'November%201839'\n%20%20],\n%20%20'legal_case_type':%20'Property%20Disputes',\n%20%20'case_result':%20'Settlement',\n%20%20'case_result_type':%20'Mediation'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201461,%20'completion_tokens':%20266,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D,%20%7B'id':%20'batch_req_675212a58e44819081ab1fd4b4f12b37',%20'custom_id':%20'Court_2_TEST_002',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'9ac58968123421a12f1f52e5e39f8d1d',%20'body':%20%7B'id':%20'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_1',\n%20%20%20%20%20%20'name':%20'Dervi%C5%9F%20Ahmed',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'Sufi',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['Dervi%C5%9F']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_2',\n%20%20%20%20%20%20'name':%20'H%C3%BCseyin%20A%C4%9Fa',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'A%C4%9Fa']\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Ey%C3%BCp',\n%20%20%20%20%20%20'place_type':%20'City'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'%C5%9Eevval%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'December%201839'\n%20%20],\n%20%20'legal_case_type':%20'Debt/Loan%20Agreements',\n%20%20'case_result':%20'Resolved%20in%20favor%20of%20es-Seyyid%20H%C3%BCseyin%20A%C4%9Fa',\n%20%20'case_result_type':%20'Resolution%20by%20oath'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201452,%20'completion_tokens':%20275,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D] "HTTP/1.1 404 Not Found"
-2024-12-05 16:02:26 - ERROR - Error processing batch results for job [{'id': 'batch_req_675212a580208190bcd8c9d396aa660b', 'custom_id': 'Court_1_TEST_001', 'response': {'status_code': 200, 'request_id': '25cb40cd32b07d8c539b0fcdd29dbfce', 'body': {'id': 'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'istanbul_case_1_1',\n      'name': 'Mehmed Efendi b. Abdullah',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Plaintiff',\n      'titles': ['es-Seyyid', 'Efendi']\n    },\n    {\n      'person_id': 'istanbul_case_1_2',\n      'name': 'Kirkor v. Yanos',\n      'gender': 'Man',\n      'religion_ethnicity': 'Armenian',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': []\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Istanbul Mahmutpaşa',\n      'place_type': 'district'\n    }\n  ],\n  'hijri_dates': [\n    'Ramadan 1255'\n  ],\n  'miladi_dates': [\n    'November 1839'\n  ],\n  'legal_case_type': 'Property Disputes',\n  'case_result': 'Settlement',\n  'case_result_type': 'Mediation'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1461, 'completion_tokens': 266, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}, {'id': 'batch_req_675212a58e44819081ab1fd4b4f12b37', 'custom_id': 'Court_2_TEST_002', 'response': {'status_code': 200, 'request_id': '9ac58968123421a12f1f52e5e39f8d1d', 'body': {'id': 'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'eyüp_case_1_1',\n      'name': 'Derviş Ahmed',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'Sufi',\n      'role_in_case': 'Plaintiff',\n      'titles': ['Derviş']\n    },\n    {\n      'person_id': 'eyüp_case_1_2',\n      'name': 'Hüseyin Ağa',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': ['es-Seyyid', 'Ağa']\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Eyüp',\n      'place_type': 'City'\n    }\n  ],\n  'hijri_dates': [\n    'Şevval 1255'\n  ],\n  'miladi_dates': [\n    'December 1839'\n  ],\n  'legal_case_type': 'Debt/Loan Agreements',\n  'case_result': 'Resolved in favor of es-Seyyid Hüseyin Ağa',\n  'case_result_type': 'Resolution by oath'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1452, 'completion_tokens': 275, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}]: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 16:02:26 - ERROR - Error processing batch results for job batch_6752129ebdf881918611d5a9adc0d4d3: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 16:10:58 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6752129ebdf881918611d5a9adc0d4d3batch_req_YOUR_JOB_ID "HTTP/1.1 404 Not Found"
-2024-12-05 16:12:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6752129ebdf881918611d5a9adc0d4d3 "HTTP/1.1 200 OK"
-2024-12-05 16:12:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_6752129ebdf881918611d5a9adc0d4d3 "HTTP/1.1 200 OK"
-2024-12-05 16:12:06 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-8icYG8YYqYPgeUzhvqEeQL/content "HTTP/1.1 200 OK"
-2024-12-05 16:12:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/[%7B'id':%20'batch_req_675212a580208190bcd8c9d396aa660b',%20'custom_id':%20'Court_1_TEST_001',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'25cb40cd32b07d8c539b0fcdd29dbfce',%20'body':%20%7B'id':%20'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_1',\n%20%20%20%20%20%20'name':%20'Mehmed%20Efendi%20b.%20Abdullah',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'Efendi']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'istanbul_case_1_2',\n%20%20%20%20%20%20'name':%20'Kirkor%20v.%20Yanos',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Armenian',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20[]\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Istanbul%20Mahmutpa%C5%9Fa',\n%20%20%20%20%20%20'place_type':%20'district'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'Ramadan%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'November%201839'\n%20%20],\n%20%20'legal_case_type':%20'Property%20Disputes',\n%20%20'case_result':%20'Settlement',\n%20%20'case_result_type':%20'Mediation'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201461,%20'completion_tokens':%20266,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D,%20%7B'id':%20'batch_req_675212a58e44819081ab1fd4b4f12b37',%20'custom_id':%20'Court_2_TEST_002',%20'response':%20%7B'status_code':%20200,%20'request_id':%20'9ac58968123421a12f1f52e5e39f8d1d',%20'body':%20%7B'id':%20'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l',%20'object':%20'chat.completion',%20'created':%201733431968,%20'model':%20'gpt-4o-2024-08-06',%20'choices':%20[%7B'index':%200,%20'message':%20%7B'role':%20'assistant',%20'content':%20%22%7B\n%20%20'persons':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_1',\n%20%20%20%20%20%20'name':%20'Dervi%C5%9F%20Ahmed',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'Sufi',\n%20%20%20%20%20%20'role_in_case':%20'Plaintiff',\n%20%20%20%20%20%20'titles':%20['Dervi%C5%9F']\n%20%20%20%20%7D,\n%20%20%20%20%7B\n%20%20%20%20%20%20'person_id':%20'ey%C3%BCp_case_1_2',\n%20%20%20%20%20%20'name':%20'H%C3%BCseyin%20A%C4%9Fa',\n%20%20%20%20%20%20'gender':%20'Man',\n%20%20%20%20%20%20'religion_ethnicity':%20'Muslim',\n%20%20%20%20%20%20'social_status_job':%20'N/A',\n%20%20%20%20%20%20'role_in_case':%20'Defendant',\n%20%20%20%20%20%20'titles':%20['es-Seyyid',%20'A%C4%9Fa']\n%20%20%20%20%7D\n%20%20],\n%20%20'places':%20[\n%20%20%20%20%7B\n%20%20%20%20%20%20'place_name':%20'Ey%C3%BCp',\n%20%20%20%20%20%20'place_type':%20'City'\n%20%20%20%20%7D\n%20%20],\n%20%20'hijri_dates':%20[\n%20%20%20%20'%C5%9Eevval%201255'\n%20%20],\n%20%20'miladi_dates':%20[\n%20%20%20%20'December%201839'\n%20%20],\n%20%20'legal_case_type':%20'Debt/Loan%20Agreements',\n%20%20'case_result':%20'Resolved%20in%20favor%20of%20es-Seyyid%20H%C3%BCseyin%20A%C4%9Fa',\n%20%20'case_result_type':%20'Resolution%20by%20oath'\n%7D%22,%20'refusal':%20None%7D,%20'logprobs':%20None,%20'finish_reason':%20'stop'%7D],%20'usage':%20%7B'prompt_tokens':%201452,%20'completion_tokens':%20275,%20'total_tokens':%201727,%20'prompt_tokens_details':%20%7B'cached_tokens':%200,%20'audio_tokens':%200%7D,%20'completion_tokens_details':%20%7B'reasoning_tokens':%200,%20'audio_tokens':%200,%20'accepted_prediction_tokens':%200,%20'rejected_prediction_tokens':%200%7D%7D,%20'system_fingerprint':%20'fp_7f6be3efb0'%7D%7D,%20'error':%20None%7D] "HTTP/1.1 404 Not Found"
-2024-12-05 16:12:06 - ERROR - Error processing batch results for job [{'id': 'batch_req_675212a580208190bcd8c9d396aa660b', 'custom_id': 'Court_1_TEST_001', 'response': {'status_code': 200, 'request_id': '25cb40cd32b07d8c539b0fcdd29dbfce', 'body': {'id': 'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'istanbul_case_1_1',\n      'name': 'Mehmed Efendi b. Abdullah',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Plaintiff',\n      'titles': ['es-Seyyid', 'Efendi']\n    },\n    {\n      'person_id': 'istanbul_case_1_2',\n      'name': 'Kirkor v. Yanos',\n      'gender': 'Man',\n      'religion_ethnicity': 'Armenian',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': []\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Istanbul Mahmutpaşa',\n      'place_type': 'district'\n    }\n  ],\n  'hijri_dates': [\n    'Ramadan 1255'\n  ],\n  'miladi_dates': [\n    'November 1839'\n  ],\n  'legal_case_type': 'Property Disputes',\n  'case_result': 'Settlement',\n  'case_result_type': 'Mediation'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1461, 'completion_tokens': 266, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}, {'id': 'batch_req_675212a58e44819081ab1fd4b4f12b37', 'custom_id': 'Court_2_TEST_002', 'response': {'status_code': 200, 'request_id': '9ac58968123421a12f1f52e5e39f8d1d', 'body': {'id': 'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l', 'object': 'chat.completion', 'created': 1733431968, 'model': 'gpt-4o-2024-08-06', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "{\n  'persons': [\n    {\n      'person_id': 'eyüp_case_1_1',\n      'name': 'Derviş Ahmed',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'Sufi',\n      'role_in_case': 'Plaintiff',\n      'titles': ['Derviş']\n    },\n    {\n      'person_id': 'eyüp_case_1_2',\n      'name': 'Hüseyin Ağa',\n      'gender': 'Man',\n      'religion_ethnicity': 'Muslim',\n      'social_status_job': 'N/A',\n      'role_in_case': 'Defendant',\n      'titles': ['es-Seyyid', 'Ağa']\n    }\n  ],\n  'places': [\n    {\n      'place_name': 'Eyüp',\n      'place_type': 'City'\n    }\n  ],\n  'hijri_dates': [\n    'Şevval 1255'\n  ],\n  'miladi_dates': [\n    'December 1839'\n  ],\n  'legal_case_type': 'Debt/Loan Agreements',\n  'case_result': 'Resolved in favor of es-Seyyid Hüseyin Ağa',\n  'case_result_type': 'Resolution by oath'\n}", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 1452, 'completion_tokens': 275, 'total_tokens': 1727, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'system_fingerprint': 'fp_7f6be3efb0'}}, 'error': None}]: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-2024-12-05 16:12:06 - ERROR - Error processing batch results for job batch_6752129ebdf881918611d5a9adc0d4d3: Error code: 404 - {'error': {'message': 'Invalid URL (GET /v1/batches/[{\'id\': \'batch_req_675212a580208190bcd8c9d396aa660b\', \'custom_id\': \'Court_1_TEST_001\', \'response\': {\'status_code\': 200, \'request_id\': \'25cb40cd32b07d8c539b0fcdd29dbfce\', \'body\': {\'id\': \'chatcmpl-AbD84nm1S0cY32kEmciOunEBnZY6C\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'istanbul_case_1_1\',/n      \'name\': \'Mehmed Efendi b. Abdullah\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'es-Seyyid\', \'Efendi\']/n    },/n    {/n      \'person_id\': \'istanbul_case_1_2\',/n      \'name\': \'Kirkor v. Yanos\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Armenian\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': []/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Istanbul Mahmutpaşa\',/n      \'place_type\': \'district\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Ramadan 1255\'/n  ],/n  \'miladi_dates\': [/n    \'November 1839\'/n  ],/n  \'legal_case_type\': \'Property Disputes\',/n  \'case_result\': \'Settlement\',/n  \'case_result_type\': \'Mediation\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1461, \'completion_tokens\': 266, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}, {\'id\': \'batch_req_675212a58e44819081ab1fd4b4f12b37\', \'custom_id\': \'Court_2_TEST_002\', \'response\': {\'status_code\': 200, \'request_id\': \'9ac58968123421a12f1f52e5e39f8d1d\', \'body\': {\'id\': \'chatcmpl-AbD84aY1vCjwCJ10GT3P0EQ3Co00l\', \'object\': \'chat.completion\', \'created\': 1733431968, \'model\': \'gpt-4o-2024-08-06\', \'choices\': [{\'index\': 0, \'message\': {\'role\': \'assistant\', \'content\': "{/n  \'persons\': [/n    {/n      \'person_id\': \'eyüp_case_1_1\',/n      \'name\': \'Derviş Ahmed\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'Sufi\',/n      \'role_in_case\': \'Plaintiff\',/n      \'titles\': [\'Derviş\']/n    },/n    {/n      \'person_id\': \'eyüp_case_1_2\',/n      \'name\': \'Hüseyin Ağa\',/n      \'gender\': \'Man\',/n      \'religion_ethnicity\': \'Muslim\',/n      \'social_status_job\': \'N/A\',/n      \'role_in_case\': \'Defendant\',/n      \'titles\': [\'es-Seyyid\', \'Ağa\']/n    }/n  ],/n  \'places\': [/n    {/n      \'place_name\': \'Eyüp\',/n      \'place_type\': \'City\'/n    }/n  ],/n  \'hijri_dates\': [/n    \'Şevval 1255\'/n  ],/n  \'miladi_dates\': [/n    \'December 1839\'/n  ],/n  \'legal_case_type\': \'Debt/Loan Agreements\',/n  \'case_result\': \'Resolved in favor of es-Seyyid Hüseyin Ağa\',/n  \'case_result_type\': \'Resolution by oath\'/n}", \'refusal\': None}, \'logprobs\': None, \'finish_reason\': \'stop\'}], \'usage\': {\'prompt_tokens\': 1452, \'completion_tokens\': 275, \'total_tokens\': 1727, \'prompt_tokens_details\': {\'cached_tokens\': 0, \'audio_tokens\': 0}, \'completion_tokens_details\': {\'reasoning_tokens\': 0, \'audio_tokens\': 0, \'accepted_prediction_tokens\': 0, \'rejected_prediction_tokens\': 0}}, \'system_fingerprint\': \'fp_7f6be3efb0\'}}, \'error\': None}])', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-01-06 11:43:58 - INFO - Starting batch processing for 10 records
+2025-01-06 11:43:58 - INFO - Created 10 batch tasks
+2025-01-06 11:43:58 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 11:43:59 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 11:43:59 - INFO - Created batch file with ID: file-HVEbqZPBgD3d8jUDXix7Jh
+2025-01-06 11:44:00 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 11:44:00 - INFO - Created batch job with ID: batch_677c0850bec881908097c5428ae270be
+2025-01-06 11:44:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0850bec881908097c5428ae270be "HTTP/1.1 200 OK"
+2025-01-06 11:44:01 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 11:45:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0850bec881908097c5428ae270be "HTTP/1.1 200 OK"
+2025-01-06 11:45:01 - INFO - Batch job status: completed (attempt 2/3)
+2025-01-06 11:45:01 - INFO - Processing batch results
+2025-01-06 11:45:01 - ERROR - Error in batch processing: Expected a non-empty value for `file_id` but received None
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 90, in process_ner_batch
+    result = client.files.content(batch_job.output_file_id).content
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
+    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
+ValueError: Expected a non-empty value for `file_id` but received None
+2025-01-06 11:45:01 - INFO - Cleaned up temporary files
+2025-01-06 11:45:59 - INFO - Starting batch processing for 10 records
+2025-01-06 11:45:59 - INFO - Created 10 batch tasks
+2025-01-06 11:45:59 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 11:46:00 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 11:46:00 - INFO - Created batch file with ID: file-NDZVg4P49HcAvruXgaK9iJ
+2025-01-06 11:46:00 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 11:46:00 - INFO - Created batch job with ID: batch_677c08c8b4b48190af507932ef10ce22
+2025-01-06 11:46:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c08c8b4b48190af507932ef10ce22 "HTTP/1.1 200 OK"
+2025-01-06 11:46:01 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 11:47:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c08c8b4b48190af507932ef10ce22 "HTTP/1.1 200 OK"
+2025-01-06 11:47:01 - INFO - Batch job status: completed (attempt 2/3)
+2025-01-06 11:47:01 - INFO - Processing batch results
+2025-01-06 11:47:01 - ERROR - Error in batch processing: Expected a non-empty value for `file_id` but received None
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 90, in process_ner_batch
+    result = client.files.content(batch_job.output_file_id).content
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
+    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
+ValueError: Expected a non-empty value for `file_id` but received None
+2025-01-06 11:47:01 - INFO - Cleaned up temporary files
+2025-01-06 11:49:22 - INFO - Starting batch processing for 10 records
+2025-01-06 11:49:22 - INFO - Created 10 batch tasks
+2025-01-06 11:49:22 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 11:49:23 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 11:49:23 - INFO - Created batch file with ID: file-1otd1fT6oVECZdmmY7NEkJ
+2025-01-06 11:49:24 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 11:49:24 - INFO - Created batch job with ID: batch_677c099489308190921fa1d1041c5b89
+2025-01-06 11:49:24 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c099489308190921fa1d1041c5b89 "HTTP/1.1 200 OK"
+2025-01-06 11:49:24 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 11:50:25 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c099489308190921fa1d1041c5b89 "HTTP/1.1 200 OK"
+2025-01-06 11:50:25 - INFO - Batch job status: in_progress (attempt 2/3)
+2025-01-06 11:51:25 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c099489308190921fa1d1041c5b89 "HTTP/1.1 200 OK"
+2025-01-06 11:51:25 - INFO - Batch job status: in_progress (attempt 3/3)
+2025-01-06 11:52:25 - INFO - Processing batch results
+2025-01-06 11:52:25 - ERROR - Error in batch processing: Expected a non-empty value for `file_id` but received None
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 92, in process_ner_batch
+    result = client.files.content(batch_job.output_file_id).content
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
+    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
+ValueError: Expected a non-empty value for `file_id` but received None
+2025-01-06 11:52:25 - INFO - Cleaned up temporary files
+2025-01-06 12:09:13 - INFO - Starting batch processing test
+2025-01-06 12:09:13 - INFO - Starting batch processing for 2 records
+2025-01-06 12:09:14 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 12:09:15 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 12:09:15 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:09:15 - INFO - Batch status: validating (attempt 1/60)
+2025-01-06 12:10:16 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:10:16 - INFO - Batch status: in_progress (attempt 2/60)
+2025-01-06 12:11:16 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:11:16 - INFO - Batch status: in_progress (attempt 3/60)
+2025-01-06 12:12:16 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:12:16 - INFO - Batch status: in_progress (attempt 4/60)
+2025-01-06 12:13:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:13:17 - INFO - Batch status: in_progress (attempt 5/60)
+2025-01-06 12:14:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:14:17 - INFO - Batch status: in_progress (attempt 6/60)
+2025-01-06 12:15:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:15:17 - INFO - Batch status: in_progress (attempt 7/60)
+2025-01-06 12:16:17 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:16:17 - INFO - Batch status: in_progress (attempt 8/60)
+2025-01-06 12:17:18 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:17:18 - INFO - Batch status: in_progress (attempt 9/60)
+2025-01-06 12:18:18 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:18:18 - INFO - Batch status: in_progress (attempt 10/60)
+2025-01-06 12:19:18 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:19:18 - INFO - Batch status: completed (attempt 11/60)
+2025-01-06 12:20:19 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:20:19 - INFO - Batch status: completed (attempt 12/60)
+2025-01-06 12:21:19 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:21:19 - INFO - Batch status: completed (attempt 13/60)
+2025-01-06 12:22:20 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:22:20 - INFO - Batch status: completed (attempt 14/60)
+2025-01-06 12:23:20 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c0e3b1ae08190b8e665814696aa1a "HTTP/1.1 200 OK"
+2025-01-06 12:23:20 - INFO - Batch status: completed (attempt 15/60)
+2025-01-06 12:23:37 - INFO - Starting batch processing test
+2025-01-06 12:23:37 - ERROR - Test failed: process_ner_batch() got an unexpected keyword argument 'summary_col'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/another_test.py", line 38, in test_batch_processing
+    result_df = process_ner_batch(
+                ^^^^^^^^^^^^^^^^^^
+TypeError: process_ner_batch() got an unexpected keyword argument 'summary_col'
+2025-01-06 12:23:57 - INFO - Starting batch processing for 2 records
+2025-01-06 12:23:57 - INFO - Created 2 batch tasks
+2025-01-06 12:23:57 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 12:23:58 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 12:23:58 - INFO - Created batch file with ID: file-Amp7V3N2odRjUhgoLVSZgK
+2025-01-06 12:23:58 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 12:23:58 - INFO - Created batch job with ID: batch_677c11aea5808190846a79c76a8abc29
+2025-01-06 12:23:59 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c11aea5808190846a79c76a8abc29 "HTTP/1.1 200 OK"
+2025-01-06 12:23:59 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 12:24:59 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c11aea5808190846a79c76a8abc29 "HTTP/1.1 200 OK"
+2025-01-06 12:24:59 - INFO - Batch job status: in_progress (attempt 2/3)
+2025-01-06 12:25:59 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c11aea5808190846a79c76a8abc29 "HTTP/1.1 200 OK"
+2025-01-06 12:25:59 - INFO - Batch job status: completed (attempt 3/3)
+2025-01-06 12:25:59 - INFO - Processing batch results
+2025-01-06 12:26:00 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-FQu4srMN7qrDrqBRAsGEqs/content "HTTP/1.1 200 OK"
+2025-01-06 12:26:00 - ERROR - Error processing result for Court_4_CASE_000: index 0 is out of bounds for axis 0 with size 0
+2025-01-06 12:26:00 - ERROR - Error processing result for Court_5_CASE_001: index 0 is out of bounds for axis 0 with size 0
+2025-01-06 12:26:00 - INFO - Batch processing completed successfully
+2025-01-06 12:26:00 - INFO - Cleaned up temporary files
+2025-01-06 12:33:24 - INFO - Starting batch processing for 2 records
+2025-01-06 12:33:24 - INFO - Created 2 batch tasks
+2025-01-06 12:33:24 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 12:33:25 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 12:33:25 - INFO - Created batch file with ID: file-Xts7ncRb3Fdat9aDap4VMg
+2025-01-06 12:33:26 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 12:33:26 - INFO - Created batch job with ID: batch_677c13e633308190a6f75b9b31e91c47
+2025-01-06 12:33:26 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c13e633308190a6f75b9b31e91c47 "HTTP/1.1 200 OK"
+2025-01-06 12:33:26 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 12:34:27 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c13e633308190a6f75b9b31e91c47 "HTTP/1.1 200 OK"
+2025-01-06 12:34:27 - INFO - Batch job status: in_progress (attempt 2/3)
+2025-01-06 12:35:27 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c13e633308190a6f75b9b31e91c47 "HTTP/1.1 200 OK"
+2025-01-06 12:35:27 - INFO - Batch job status: completed (attempt 3/3)
+2025-01-06 12:35:27 - INFO - Processing batch results
+2025-01-06 12:35:28 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-1PtvdYP8gF8Jqr2Fu2s3uf/content "HTTP/1.1 200 OK"
+2025-01-06 12:35:28 - ERROR - Error processing result for Court_3_CASE_000: index 0 is out of bounds for axis 0 with size 0
+2025-01-06 12:35:28 - ERROR - Error processing result for Court_5_CASE_001: index 0 is out of bounds for axis 0 with size 0
+2025-01-06 12:35:28 - INFO - Batch processing completed successfully
+2025-01-06 12:35:28 - INFO - Cleaned up temporary files
+2025-01-06 12:37:47 - INFO - Starting batch processing for 2 records
+2025-01-06 12:37:47 - INFO - Created 2 batch tasks
+2025-01-06 12:37:47 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 12:37:49 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 12:37:49 - INFO - Created batch file with ID: file-FoDyrScQQokCSXw19nxTHq
+2025-01-06 12:37:50 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 12:37:50 - INFO - Created batch job with ID: batch_677c14edcb9c8190b993e30c07270c38
+2025-01-06 12:37:50 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c14edcb9c8190b993e30c07270c38 "HTTP/1.1 200 OK"
+2025-01-06 12:37:50 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 12:38:50 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c14edcb9c8190b993e30c07270c38 "HTTP/1.1 200 OK"
+2025-01-06 12:38:50 - INFO - Batch job status: completed (attempt 2/3)
+2025-01-06 12:38:50 - INFO - Processing batch results
+2025-01-06 12:38:51 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-YEfWbVJnk4nB5b1979eHFo/content "HTTP/1.1 200 OK"
+2025-01-06 12:38:51 - ERROR - No matching case_id found: 3_CASE_000
+2025-01-06 12:38:51 - ERROR - No matching case_id found: 2_CASE_001
+2025-01-06 12:38:51 - INFO - Batch processing completed successfully
+2025-01-06 12:38:51 - INFO - Cleaned up temporary files
+2025-01-06 12:45:58 - INFO - Starting batch processing for 2 records
+2025-01-06 12:45:58 - INFO - Created 2 batch tasks
+2025-01-06 12:45:58 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 12:45:58 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 12:45:58 - INFO - Created batch file with ID: file-TNqwYtAhhgmQTQcAigXBmy
+2025-01-06 12:46:00 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 12:46:00 - INFO - Created batch job with ID: batch_677c16d7c0f48190b7d23daad952afaf
+2025-01-06 12:46:00 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c16d7c0f48190b7d23daad952afaf "HTTP/1.1 200 OK"
+2025-01-06 12:46:00 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 12:47:00 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c16d7c0f48190b7d23daad952afaf "HTTP/1.1 200 OK"
+2025-01-06 12:47:00 - INFO - Batch job status: completed (attempt 2/3)
+2025-01-06 12:47:00 - INFO - Processing batch results
+2025-01-06 12:47:01 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-EomGDzKbL9zqNrMUsZsAcF/content "HTTP/1.1 200 OK"
+2025-01-06 12:47:01 - ERROR - No matching case_id found: 3_Court_3_001_000
+2025-01-06 12:47:01 - ERROR - No matching case_id found: 1_Court_1_001_001
+2025-01-06 12:47:01 - INFO - Batch processing completed successfully
+2025-01-06 12:47:01 - INFO - Cleaned up temporary files
+2025-01-06 13:06:10 - INFO - Starting batch processing for 2 records
+2025-01-06 13:06:10 - INFO - Created 2 batch tasks
+2025-01-06 13:06:10 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 13:06:11 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 13:06:11 - INFO - Created batch file with ID: file-Sy9488Ny5EVgenodkSHcTQ
+2025-01-06 13:06:13 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 13:06:13 - INFO - Created batch job with ID: batch_677c1b94c2f0819086b53bfbd6f1f07c
+2025-01-06 13:06:13 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c1b94c2f0819086b53bfbd6f1f07c "HTTP/1.1 200 OK"
+2025-01-06 13:06:13 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 13:07:13 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c1b94c2f0819086b53bfbd6f1f07c "HTTP/1.1 200 OK"
+2025-01-06 13:07:13 - INFO - Batch job status: in_progress (attempt 2/3)
+2025-01-06 13:08:14 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c1b94c2f0819086b53bfbd6f1f07c "HTTP/1.1 200 OK"
+2025-01-06 13:08:14 - INFO - Batch job status: in_progress (attempt 3/3)
+2025-01-06 13:09:14 - INFO - Processing batch results
+2025-01-06 13:09:14 - ERROR - Error in batch processing: Expected a non-empty value for `file_id` but received None
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 99, in process_ner_batch
+    result = client.files.content(batch_job.output_file_id).content
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
+    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
+ValueError: Expected a non-empty value for `file_id` but received None
+2025-01-06 13:09:14 - INFO - Cleaned up temporary files
+2025-01-06 18:04:02 - INFO - Starting batch processing for 2 records
+2025-01-06 18:04:02 - INFO - Created 2 batch tasks
+2025-01-06 18:04:02 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 18:04:03 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 18:04:03 - INFO - Created batch file with ID: file-VDjKrECU6wTN4GN9Cx24xb
+2025-01-06 18:04:04 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 18:04:04 - INFO - Created batch job with ID: batch_677c6164aab08190bb90a7c38b1c8fbb
+2025-01-06 18:04:05 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c6164aab08190bb90a7c38b1c8fbb "HTTP/1.1 200 OK"
+2025-01-06 18:04:05 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 18:05:05 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c6164aab08190bb90a7c38b1c8fbb "HTTP/1.1 200 OK"
+2025-01-06 18:05:05 - INFO - Batch job status: completed (attempt 2/3)
+2025-01-06 18:05:06 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-Q1B5WdwxFZGRnrKJQccTch/content "HTTP/1.1 200 OK"
+2025-01-06 18:05:06 - INFO - Batch results saved to batch_results.jsonl
+2025-01-06 18:05:06 - INFO - Processing batch results
+2025-01-06 18:05:06 - ERROR - No matching case_id found: 4_Court_4_000
+2025-01-06 18:05:06 - ERROR - No matching case_id found: 4_Court_4_001
+2025-01-06 18:05:06 - INFO - Batch processing completed successfully
+2025-01-06 18:05:06 - INFO - Cleaned up temporary files
+2025-01-06 18:22:42 - INFO - Starting batch processing for 2 records
+2025-01-06 18:22:42 - ERROR - Error in batch processing: 'court'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'court'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 41, in process_ner_batch
+    "custom_id": f"{row[court_title_column_name]}_{row[case_id_column_name]}",
+                    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'court'
+2025-01-06 18:23:53 - INFO - Starting batch processing for 2 records
+2025-01-06 18:23:53 - ERROR - Error in batch processing: 'court'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'court'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 41, in process_ner_batch
+    "custom_id": f"{row[court_title_column_name]}_{row[case_id_column_name]}",
+                    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'court'
+2025-01-06 18:27:39 - INFO - Starting batch processing for 2 records
+2025-01-06 18:27:39 - ERROR - Error in batch processing: 'court'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'court'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 41, in process_ner_batch
+    "custom_id": f"{row[court_title_column_name]}_{row[case_id_column_name]}",
+                    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'court'
+2025-01-06 18:28:18 - INFO - Starting batch processing for 2 records
+2025-01-06 18:28:18 - ERROR - Error in batch processing: 'court'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'court'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 41, in process_ner_batch
+    "custom_id": f"{row[court_title_column_name]}_{row[case_id_column_name]}",
+                    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1121, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1237, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'court'
+2025-01-06 18:35:46 - INFO - Starting batch processing for 2 records
+2025-01-06 18:35:46 - INFO - Created 2 batch tasks
+2025-01-06 18:35:46 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 18:35:47 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 18:35:47 - INFO - Created batch file with ID: file-GKSX5HGV1ga9jihGk3RME1
+2025-01-06 18:35:48 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 18:35:48 - INFO - Created batch job with ID: batch_677c68d3e9f081908cf279c53019a12d
+2025-01-06 18:35:48 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c68d3e9f081908cf279c53019a12d "HTTP/1.1 200 OK"
+2025-01-06 18:35:48 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 18:36:48 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c68d3e9f081908cf279c53019a12d "HTTP/1.1 200 OK"
+2025-01-06 18:36:48 - INFO - Batch job status: completed (attempt 2/3)
+2025-01-06 18:36:49 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-EfN8ZXuMiZwWJsz7GHihBo/content "HTTP/1.1 200 OK"
+2025-01-06 18:36:49 - INFO - Batch results saved to batch_results.jsonl
+2025-01-06 18:36:49 - INFO - Processing batch results
+2025-01-06 18:36:49 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-EfN8ZXuMiZwWJsz7GHihBo/content "HTTP/1.1 200 OK"
+2025-01-06 18:36:49 - INFO - Batch processing completed successfully
+2025-01-06 18:36:49 - INFO - Cleaned up temporary files
+2025-01-06 18:36:49 - INFO - Test passed: Batch processing completed successfully.
+2025-01-06 18:36:49 - INFO - Cleaned up test output file.
+2025-01-06 18:42:58 - INFO - Starting batch processing for 2 records
+2025-01-06 18:42:58 - INFO - Created 2 batch tasks
+2025-01-06 18:42:58 - INFO - Wrote batch tasks to JSONL file
+2025-01-06 18:42:59 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-06 18:42:59 - INFO - Created batch file with ID: file-HTSjj4Z96hd3bYxz2BvqAJ
+2025-01-06 18:43:00 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-06 18:43:00 - INFO - Created batch job with ID: batch_677c6a8440708190b38899b5fa76f80b
+2025-01-06 18:43:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c6a8440708190b38899b5fa76f80b "HTTP/1.1 200 OK"
+2025-01-06 18:43:01 - INFO - Batch job status: validating (attempt 1/3)
+2025-01-06 18:44:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c6a8440708190b38899b5fa76f80b "HTTP/1.1 200 OK"
+2025-01-06 18:44:01 - INFO - Batch job status: in_progress (attempt 2/3)
+2025-01-06 18:45:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677c6a8440708190b38899b5fa76f80b "HTTP/1.1 200 OK"
+2025-01-06 18:45:01 - INFO - Batch job status: completed (attempt 3/3)
+2025-01-06 18:45:02 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-J9xkPDc51pGosuiPf2CV4A/content "HTTP/1.1 200 OK"
+2025-01-06 18:45:02 - INFO - Batch results saved to batch_results.jsonl
+2025-01-06 18:45:02 - INFO - Processing batch results
+2025-01-06 18:45:03 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-J9xkPDc51pGosuiPf2CV4A/content "HTTP/1.1 200 OK"
+2025-01-06 18:45:03 - INFO - Batch processing completed successfully
+2025-01-06 18:45:03 - INFO - Cleaned up temporary files
+2025-01-06 18:45:03 - INFO - Test passed: Batch processing completed successfully.
