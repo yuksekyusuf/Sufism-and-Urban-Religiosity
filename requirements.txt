@@ -4,3 +4,5 @@ numpy
 jupyter
 pyyaml
 transformers
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
