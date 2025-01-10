@@ -34,7 +34,7 @@ def write_to_csv(file_path: str, batch_data: List[Dict], headers: Optional[List[
 
 
 # Add log messages in key places
-def process_ner_batch(df, summary_column_name, case_id_column_name, output_file):
+def process_ner_batch(df, summary_column_name, case_id_column_name):
     print("Starting batch processing...")
 
     logger.info(f"Starting batch processing for {len(df)} records")

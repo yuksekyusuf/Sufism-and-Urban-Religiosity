@@ -19,7 +19,8 @@ logger = logging.getLogger(__name__)
 
 def test_batch_processing():
     try:
-        csv_path = os.path.join('data', 'sicil_records.csv')
+        csv_path = os.path.join(project_root, 'data', 'sicil_records.csv')
+        logger.info(f"Attempting to read CSV from: {csv_path}")
         df = pd.read_csv(csv_path)
         
         # Combine summary and case text
@@ -31,28 +32,24 @@ def test_batch_processing():
                       df['case_number']).str.lower()
         
         # For testing, let's use a small subset
-        test_df = df.iloc[100:106]  # Process first 5 records
+        df['sicil_id'] = df['court_title'] + '_' + df['sicil_number'].astype(str)
+        selected_sicil = "Rumeli Sadâreti Mahkemesi_106"
+        filtered_df = df[df['sicil_id'] == selected_sicil].copy()
 
         # Define column names
         summary_column = "case_text_summary"
         court_title_column = "court_title"  # Replace with actual column name
         case_id_column = "case_id"  # Replace with actual column name
 
-        # Define output file
-        output_file = "test_batch_results.csv"
-
         # Process the batch
-        result_df = process_ner_batch(
-            df=test_df,
+        batch_id = process_ner_batch(
+            df=filtered_df,
             summary_column_name=summary_column,
             case_id_column_name=case_id_column,
-            output_file=output_file
         )
 
         # Check results
-        logger.info(f"Processed {len(result_df)} rows")
-        logger.info("\nFirst few rows of results:")
-        logger.info(result_df.head())
+        logger.info(f"Processed the batch with {batch_id}")
     except Exception as e:
         logger.error(f"Error in test batch processing: {e}", exc_info=True)
 

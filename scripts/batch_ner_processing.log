@@ -1,0 +1,196 @@
+2025-01-09 11:45:51 - ERROR - Error in test batch processing: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/tempCodeRunnerFile.py", line 23, in test_batch_processing
+    df = pd.read_csv(csv_path)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+2025-01-09 11:50:04 - ERROR - Error in test batch processing: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/tempCodeRunnerFile.py", line 23, in test_batch_processing
+    df = pd.read_csv(csv_path)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+2025-01-09 11:51:36 - ERROR - Error in test batch processing: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/tempCodeRunnerFile.py", line 23, in test_batch_processing
+    df = pd.read_csv(csv_path)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+2025-01-09 11:52:14 - ERROR - Error in test batch processing: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/batch_test.py", line 23, in test_batch_processing
+    df = pd.read_csv(csv_path)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+2025-01-09 11:55:04 - ERROR - Error in test batch processing: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/tempCodeRunnerFile.py", line 23, in test_batch_processing
+    df = pd.read_csv(csv_path)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+2025-01-09 11:55:42 - ERROR - Error in test batch processing: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+Traceback (most recent call last):
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/tempCodeRunnerFile.py", line 23, in test_batch_processing
+    df = pd.read_csv(csv_path)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/sicil_records.csv'
+2025-01-09 16:36:10 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-09 16:36:11 - INFO - Starting batch processing for 382 records
+2025-01-09 16:36:11 - INFO - Created 382 batch tasks
+2025-01-09 16:36:11 - INFO - Wrote batch tasks to JSONL file
+2025-01-09 16:36:14 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-09 16:36:14 - INFO - Created batch file with ID: file-MFjyC8ag4X6vH1VyMsvXgu
+2025-01-09 16:36:15 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-09 16:36:15 - INFO - Created batch job with ID: batch_6780414eedb88190b571bb878eb0e24e
+2025-01-09 16:36:15 - INFO - Cleaned up temporary files
+2025-01-09 16:36:15 - INFO - Processed the batch with batch_6780414eedb88190b571bb878eb0e24e
+2025-01-10 09:57:55 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 09:57:56 - INFO - Starting batch processing for 548 records
+2025-01-10 09:57:56 - INFO - Created 548 batch tasks
+2025-01-10 09:57:56 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 09:57:59 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 09:57:59 - INFO - Created batch file with ID: file-8RbE4YVLNRSKQDXa4eAPFf
+2025-01-10 09:57:59 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 09:57:59 - INFO - Created batch job with ID: batch_67813577dbfc8190a0bec08a74a7fa2b
+2025-01-10 09:57:59 - INFO - Cleaned up temporary files
+2025-01-10 09:58:00 - INFO - Processed the batch with batch_67813577dbfc8190a0bec08a74a7fa2b
+2025-01-10 09:59:21 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 09:59:22 - INFO - Starting batch processing for 548 records
+2025-01-10 09:59:22 - INFO - Created 548 batch tasks
+2025-01-10 09:59:22 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 09:59:24 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 09:59:24 - INFO - Created batch file with ID: file-Dzovsz4EFQZVZUvqkMfdJ7
+2025-01-10 09:59:25 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 09:59:25 - INFO - Created batch job with ID: batch_678135cd69a88190b30d246c6d91575d
+2025-01-10 09:59:25 - INFO - Cleaned up temporary files
+2025-01-10 09:59:25 - INFO - Processed the batch with batch_678135cd69a88190b30d246c6d91575d
+2025-01-10 10:02:16 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 10:02:18 - INFO - Starting batch processing for 548 records
+2025-01-10 10:02:18 - INFO - Created 548 batch tasks
+2025-01-10 10:02:18 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 10:02:20 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 10:02:20 - INFO - Created batch file with ID: file-CWEoraNXdJs6UVuFAAxBfN
+2025-01-10 10:02:21 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 10:02:21 - INFO - Created batch job with ID: batch_6781367d2f848190964316638cbb0833
+2025-01-10 10:02:21 - INFO - Cleaned up temporary files
+2025-01-10 10:02:21 - INFO - Processed the batch with batch_6781367d2f848190964316638cbb0833
+2025-01-10 10:05:22 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 10:05:23 - INFO - Starting batch processing for 548 records
+2025-01-10 10:05:23 - INFO - Created 548 batch tasks
+2025-01-10 10:05:23 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 10:05:26 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 10:05:26 - INFO - Created batch file with ID: file-UY6mCcpsF8v9uGh1CGpHRS
+2025-01-10 10:05:27 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 10:05:27 - INFO - Created batch job with ID: batch_67813736fa5c8190a1d78a8d9d12b3d3
+2025-01-10 10:05:27 - INFO - Cleaned up temporary files
+2025-01-10 10:05:27 - INFO - Processed the batch with batch_67813736fa5c8190a1d78a8d9d12b3d3
+2025-01-10 10:16:58 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 10:16:59 - INFO - Starting batch processing for 548 records
+2025-01-10 10:16:59 - INFO - Created 548 batch tasks
+2025-01-10 10:16:59 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 10:17:01 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 10:17:01 - INFO - Created batch file with ID: file-F91qYJFYJadg9Qryerj7r1
+2025-01-10 10:17:02 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 10:17:02 - INFO - Created batch job with ID: batch_678139ee17d88190a3d8341291b6af0f
+2025-01-10 10:17:02 - INFO - Cleaned up temporary files
+2025-01-10 10:17:02 - INFO - Processed the batch with batch_678139ee17d88190a3d8341291b6af0f
+2025-01-10 10:17:57 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 10:17:59 - INFO - Starting batch processing for 1161 records
+2025-01-10 10:17:59 - INFO - Created 1161 batch tasks
+2025-01-10 10:17:59 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 10:18:03 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 10:18:03 - INFO - Created batch file with ID: file-SjP8eb8Y4qCGz6GnwQLvuA
+2025-01-10 10:18:04 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 10:18:04 - INFO - Created batch job with ID: batch_67813a2c10508190a1a6d3606db77270
+2025-01-10 10:18:04 - INFO - Cleaned up temporary files
+2025-01-10 10:18:04 - INFO - Processed the batch with batch_67813a2c10508190a1a6d3606db77270

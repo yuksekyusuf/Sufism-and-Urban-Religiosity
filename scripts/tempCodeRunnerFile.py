@@ -1,15 +1,13 @@
-import os
-import sys
-import json
-import logging
 import pandas as pd
-from pathlib import Path
+import logging
+import sys
+import os
 
-# Get absolute path to project root
-project_root = Path(__file__).parent.parent
-sys.path.append(str(project_root))
+# Add the project root directory to Python path
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(project_root)
 
-from scripts.batch_processing_jan import process_batch_results, write_to_csv
+from scripts.batch_processing_jan import process_ner_batch
 
 # Configure logging
 logging.basicConfig(
@@ -19,95 +17,41 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def clean_case_id(custom_id):
-    """Clean and format the custom_id to match the format: 'Adalar Mahkemesi_1_Hüküm no: 1'"""
+def test_batch_processing():
     try:
-        parts = custom_id.split('_')
-        if len(parts) >= 3:
-            # Keep original court title case
-            court = 'Adalar Mahkemesi'  # From the original data sample
-            
-            # Get sicil number
-            sicil = parts[2]
-            
-            # Get the case number part and format it with proper capitalization
-            case_part = parts[3] if len(parts) > 3 else 'Hüküm no:'
-            
-            # Handle the case where we have a number
-            if case_part.endswith(':'):
-                case_id = f"{court}_{sicil}_{case_part.replace('hüküm', 'Hüküm')}"
-            else:
-                # Split by colon to separate "Hüküm no:" from the number
-                number = case_part.split(':')[-1].strip()
-                case_id = f"{court}_{sicil}_Hüküm no: {number}"
-            
-            return case_id  # Don't convert to lowercase
-            
-        return custom_id
-    except Exception as e:
-        logger.error(f"Error cleaning case_id '{custom_id}': {e}")
-        return custom_id
-
-def process_and_save_results():
-    try:
-        # Read the original dataset
         csv_path = os.path.join(project_root, 'data', 'sicil_records.csv')
+        logger.info(f"Attempting to read CSV from: {csv_path}")
         df = pd.read_csv(csv_path)
         
-        df['case_id'] = df.apply(lambda row: f"{row['court_title']}_{row['sicil_number']}_{row['case_number']}", axis=1)
+        # Combine summary and case text
+        df['case_text_summary'] = "Summary: " + df['case_summary'].astype(str) + "\n" + "Case: " + df['case_text'].astype(str)
+        
+        # Create a unique ID by concatenating 'court_title', 'sicil_number', and 'case_number' with a separator
+        df['case_id'] = (df['court_title'] + '_' + 
+                      df['sicil_number'].astype(str) + '_' + 
+                      df['case_number']).str.lower()
+        
+        # For testing, let's use a small subset
+        df['sicil_id'] = df['court_title'] + '_' + df['sicil_number'].astype(str)
+        selected_sicil = "Bab Mahkemesi_3"
+        filtered_df = df[df['sicil_id'] == selected_sicil].copy()
 
+        # Define column names
+        summary_column = "case_text_summary"
+        court_title_column = "court_title"  # Replace with actual column name
+        case_id_column = "case_id"  # Replace with actual column name
 
-        # # Print some examples of original court titles and case IDs
-        # logger.info("Sample of original data:")
-        # sample_data = df[['court_title', 'sicil_number', 'case_number', 'case_id']].head()
-        # logger.info(sample_data)
-        
-        # Read the batch results
-        with open('batch_results.jsonl', 'r') as file:
-            results = [json.loads(line.strip()) for line in file]
-        
-        # Print sample of custom_ids before and after cleaning
-        logger.info("\nSample ID transformations:")
-        for result in results[:5]:
-            original_id = result.get('custom_id')
-            # cleaned_id = clean_case_id(original_id)
-            logger.info(f"Original: {original_id}")
-            # logger.info(f"Cleaned : {cleaned_id}")
-            logger.info("-" * 50)
-            # result['custom_id'] = cleaned_id
-        
-        # Create results directory
-        results_dir = os.path.join(project_root, 'results')
-        os.makedirs(results_dir, exist_ok=True)
-        
-        # Generate output filename
-        timestamp = pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')
-        output_file = os.path.join(results_dir, f'ner_results_{timestamp}.csv')
-        
-        # Process results
-        result_df = process_batch_results(
-            results=results,
-            df=df,
-            case_id_column_name='case_id',
-            output_file=output_file
+        # Process the batch
+        batch_id = process_ner_batch(
+            df=filtered_df,
+            summary_column_name=summary_column,
+            case_id_column_name=case_id_column,
         )
-        
-        if not result_df.empty:
-            logger.info(f"Processing complete. Results saved to {output_file}")
-            logger.info(f"Total rows in processed results: {len(result_df)}")
-            
-            # Also save as Excel
-            excel_output = output_file.replace('.csv', '.xlsx')
-            result_df.to_excel(excel_output, index=False)
-            logger.info(f"Results also saved as Excel file: {excel_output}")
-        else:
-            logger.warning("No results were processed successfully.")
-        
-        return result_df, output_file
-        
+
+        # Check results
+        logger.info(f"Processed the batch with {batch_id}")
     except Exception as e:
-        logger.error(f"Error processing batch results: {e}", exc_info=True)
-        raise
+        logger.error(f"Error in test batch processing: {e}", exc_info=True)
 
 if __name__ == "__main__":
-    process_and_save_results()
+    test_batch_processing()

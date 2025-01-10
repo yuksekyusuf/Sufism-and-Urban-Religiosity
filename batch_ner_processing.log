@@ -1,368 +1,80 @@
-2025-01-08 12:22:32 - INFO - Sample of original data:
-2025-01-08 12:22:32 - INFO -         court_title  sicil_number  case_number                         case_id
-0  Adalar Mahkemesi             1   Hüküm no:    Adalar Mahkemesi_1_Hüküm no: 
-1  Adalar Mahkemesi             1  Hüküm no: 1  Adalar Mahkemesi_1_Hüküm no: 1
-2  Adalar Mahkemesi             1  Hüküm no: 2  Adalar Mahkemesi_1_Hüküm no: 2
-3  Adalar Mahkemesi             1  Hüküm no: 3  Adalar Mahkemesi_1_Hüküm no: 3
-4  Adalar Mahkemesi             1  Hüküm no: 4  Adalar Mahkemesi_1_Hüküm no: 4
-2025-01-08 12:22:32 - INFO - 
-Sample ID transformations:
-2025-01-08 12:22:32 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 
-2025-01-08 12:22:32 - INFO - Cleaned : Adalar Mahkemesi_1_Hüküm no: 
-2025-01-08 12:22:32 - INFO - --------------------------------------------------
-2025-01-08 12:22:32 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 1
-2025-01-08 12:22:32 - INFO - Cleaned : Adalar Mahkemesi_1_Hüküm no: 1
-2025-01-08 12:22:32 - INFO - --------------------------------------------------
-2025-01-08 12:22:32 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 2
-2025-01-08 12:22:32 - INFO - Cleaned : Adalar Mahkemesi_1_Hüküm no: 2
-2025-01-08 12:22:32 - INFO - --------------------------------------------------
-2025-01-08 12:22:32 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 3
-2025-01-08 12:22:32 - INFO - Cleaned : Adalar Mahkemesi_1_Hüküm no: 3
-2025-01-08 12:22:32 - INFO - --------------------------------------------------
-2025-01-08 12:22:32 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 4
-2025-01-08 12:22:32 - INFO - Cleaned : Adalar Mahkemesi_1_Hüküm no: 4
-2025-01-08 12:22:32 - INFO - --------------------------------------------------
-2025-01-08 12:22:32 - ERROR - No matching case_id found: Adalar Mahkemesi_Hüküm no: _Hüküm no:
-2025-01-08 12:22:32 - ERROR - No matching case_id found: Adalar Mahkemesi_Hüküm no: 1_Hüküm no:
-2025-01-08 12:22:32 - ERROR - No matching case_id found: Adalar Mahkemesi_Hüküm no: 2_Hüküm no:
-2025-01-08 12:22:32 - ERROR - No matching case_id found: Adalar Mahkemesi_Hüküm no: 3_Hüküm no:
-2025-01-08 12:22:32 - ERROR - No matching case_id found: Adalar Mahkemesi_Hüküm no: 4_Hüküm no:
-2025-01-08 12:22:32 - WARNING - No results were processed successfully.
-2025-01-08 12:25:09 - INFO - 
-Sample ID transformations:
-2025-01-08 12:25:09 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 
-2025-01-08 12:25:09 - INFO - --------------------------------------------------
-2025-01-08 12:25:09 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 1
-2025-01-08 12:25:09 - INFO - --------------------------------------------------
-2025-01-08 12:25:09 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 2
-2025-01-08 12:25:09 - INFO - --------------------------------------------------
-2025-01-08 12:25:09 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 3
-2025-01-08 12:25:09 - INFO - --------------------------------------------------
-2025-01-08 12:25:09 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 4
-2025-01-08 12:25:09 - INFO - --------------------------------------------------
-2025-01-08 12:25:09 - ERROR - Error processing batch results: name 'custom_id' is not defined
-Traceback (most recent call last):
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 200, in process_batch_results
-    'case_unique_id': case_id
-                      ^^^^^^^
-NameError: name 'case_id' is not defined
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/process_results.py", line 88, in process_and_save_results
-    result_df = process_batch_results(
-                ^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 285, in process_batch_results
-    logger.error(f"Error processing result for {custom_id}: {e}")
-                                                ^^^^^^^^^
-NameError: name 'custom_id' is not defined
-2025-01-08 12:27:56 - INFO - 
-Sample ID transformations:
-2025-01-08 12:27:56 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 
-2025-01-08 12:27:56 - INFO - --------------------------------------------------
-2025-01-08 12:27:56 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 1
-2025-01-08 12:27:56 - INFO - --------------------------------------------------
-2025-01-08 12:27:56 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 2
-2025-01-08 12:27:56 - INFO - --------------------------------------------------
-2025-01-08 12:27:56 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 3
-2025-01-08 12:27:56 - INFO - --------------------------------------------------
-2025-01-08 12:27:56 - INFO - Original: Adalar Mahkemesi_adalar mahkemesi_1_hüküm no: 4
-2025-01-08 12:27:56 - INFO - --------------------------------------------------
-2025-01-08 12:27:56 - INFO - Processing complete. Results saved to /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/results/ner_results_20250108_122756.csv
-2025-01-08 12:27:56 - INFO - Total rows in processed results: 34
-2025-01-08 12:27:56 - ERROR - Error processing batch results: No module named 'openpyxl'
-Traceback (most recent call last):
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/tempCodeRunnerFile.py", line 101, in process_and_save_results
-    result_df.to_excel(excel_output, index=False)
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 2417, in to_excel
-    formatter.write(
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/formats/excel.py", line 943, in write
-    writer = ExcelWriter(
-             ^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/pandas/io/excel/_openpyxl.py", line 57, in __init__
-    from openpyxl.workbook import Workbook
-ModuleNotFoundError: No module named 'openpyxl'
-2025-01-08 12:29:51 - INFO - Starting batch processing for 10 records
-2025-01-08 12:29:51 - INFO - Created 10 batch tasks
-2025-01-08 12:29:51 - INFO - Wrote batch tasks to JSONL file
-2025-01-08 12:29:52 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-08 12:29:52 - INFO - Created batch file with ID: file-SmuGAJyRqFA7GY9h5BcC3v
-2025-01-08 12:29:54 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-08 12:29:54 - INFO - Created batch job with ID: batch_677eb611e1cc81909dfd7d2067b39907
-2025-01-08 12:29:54 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677eb611e1cc81909dfd7d2067b39907 "HTTP/1.1 200 OK"
-2025-01-08 12:29:54 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-08 12:30:55 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677eb611e1cc81909dfd7d2067b39907 "HTTP/1.1 200 OK"
-2025-01-08 12:30:55 - INFO - Batch job status: in_progress (attempt 2/3)
-2025-01-08 12:31:55 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677eb611e1cc81909dfd7d2067b39907 "HTTP/1.1 200 OK"
-2025-01-08 12:31:55 - INFO - Batch job status: completed (attempt 3/3)
-2025-01-08 12:31:56 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-LHyW2wvhDVchQNAUTSNxs7/content "HTTP/1.1 200 OK"
-2025-01-08 12:31:56 - INFO - Batch results saved to batch_results.jsonl
-2025-01-08 12:31:56 - INFO - Processing batch results
-2025-01-08 12:31:56 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-LHyW2wvhDVchQNAUTSNxs7/content "HTTP/1.1 200 OK"
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 1
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 2
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 3
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 4
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 5
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 6
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 7
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 8
-2025-01-08 12:31:57 - ERROR - No matching case_id found: Adalar Mahkemesi_1_Hüküm no: 9
-2025-01-08 12:31:57 - INFO - Batch processing completed successfully
-2025-01-08 12:31:57 - INFO - Cleaned up temporary files
-2025-01-08 12:31:57 - INFO - Processed 0 rows
-2025-01-08 12:31:57 - INFO - 
-First few rows of results:
-2025-01-08 12:31:57 - INFO - Empty DataFrame
-Columns: []
-Index: []
-2025-01-08 13:58:56 - INFO - Starting batch processing for 5 records
-2025-01-08 13:58:56 - INFO - Created 5 batch tasks
-2025-01-08 13:58:56 - INFO - Wrote batch tasks to JSONL file
-2025-01-08 13:58:58 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-08 13:58:58 - INFO - Created batch file with ID: file-62YQ7J9NaqVAYxQ7hL1yii
-2025-01-08 13:58:59 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-08 13:58:59 - INFO - Created batch job with ID: batch_677ecaf3655881909079e188782638bf
-2025-01-08 13:59:00 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677ecaf3655881909079e188782638bf "HTTP/1.1 200 OK"
-2025-01-08 13:59:00 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-08 14:00:00 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677ecaf3655881909079e188782638bf "HTTP/1.1 200 OK"
-2025-01-08 14:00:00 - INFO - Batch job status: completed (attempt 2/3)
-2025-01-08 14:00:01 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-UoCtkHehoJTtZmV9VhdTts/content "HTTP/1.1 200 OK"
-2025-01-08 14:00:01 - INFO - Batch results saved to batch_results.jsonl
-2025-01-08 14:00:01 - INFO - Processing batch results
-2025-01-08 14:00:01 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-UoCtkHehoJTtZmV9VhdTts/content "HTTP/1.1 200 OK"
-2025-01-08 14:00:01 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: _Hüküm no:
-2025-01-08 14:00:01 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 1_Hüküm no:
-2025-01-08 14:00:01 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 2_Hüküm no:
-2025-01-08 14:00:01 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 3_Hüküm no:
-2025-01-08 14:00:01 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 4_Hüküm no:
-2025-01-08 14:00:01 - INFO - Batch processing completed successfully
-2025-01-08 14:00:01 - INFO - Cleaned up temporary files
-2025-01-08 14:00:01 - INFO - Processed 0 rows
-2025-01-08 14:00:01 - INFO - 
-First few rows of results:
-2025-01-08 14:00:01 - INFO - Empty DataFrame
-Columns: []
-Index: []
-2025-01-09 09:24:57 - INFO - Starting batch processing for 5 records
-2025-01-09 09:24:57 - INFO - Created 5 batch tasks
-2025-01-09 09:24:57 - INFO - Wrote batch tasks to JSONL file
-2025-01-09 09:24:59 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-09 09:24:59 - INFO - Created batch file with ID: file-Hu7PYh23fMp5YfrMRnK7kH
-2025-01-09 09:25:00 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-09 09:25:00 - INFO - Created batch job with ID: batch_677fdc3c7414819093210df5fc3a6fdc
-2025-01-09 09:25:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fdc3c7414819093210df5fc3a6fdc "HTTP/1.1 200 OK"
-2025-01-09 09:25:01 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-09 09:26:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fdc3c7414819093210df5fc3a6fdc "HTTP/1.1 200 OK"
-2025-01-09 09:26:01 - INFO - Batch job status: validating (attempt 2/3)
-2025-01-09 09:27:01 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fdc3c7414819093210df5fc3a6fdc "HTTP/1.1 200 OK"
-2025-01-09 09:27:01 - INFO - Batch job status: completed (attempt 3/3)
-2025-01-09 09:27:01 - ERROR - Batch job completed but no output_file_id returned. Batch job: Batch(id='batch_677fdc3c7414819093210df5fc3a6fdc', completion_window='24h', created_at=1736432700, endpoint='/v1/chat/completions', input_file_id='file-Hu7PYh23fMp5YfrMRnK7kH', object='batch', status='completed', cancelled_at=None, cancelling_at=None, completed_at=1736432776, error_file_id='file-WcRPZeiF4MrVecseVfx4fM', errors=None, expired_at=None, expires_at=1736519100, failed_at=None, finalizing_at=1736432775, in_progress_at=1736432761, metadata=None, output_file_id=None, request_counts=BatchRequestCounts(completed=0, failed=5, total=5))
-2025-01-09 09:27:01 - ERROR - Error checking batch status: Batch job completed but no output_file_id found.
-2025-01-09 09:28:01 - ERROR - Error in batch processing: Expected a non-empty value for `file_id` but received None
-Traceback (most recent call last):
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 114, in process_ner_batch
-    result = client.files.content(batch_job.output_file_id).content
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
-    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
-ValueError: Expected a non-empty value for `file_id` but received None
-2025-01-09 09:28:01 - INFO - Cleaned up temporary files
-2025-01-09 09:28:01 - ERROR - Error in test batch processing: Expected a non-empty value for `file_id` but received None
-Traceback (most recent call last):
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/batch_test.py", line 45, in test_batch_processing
-    result_df = process_ner_batch(
-                ^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 114, in process_ner_batch
-    result = client.files.content(batch_job.output_file_id).content
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
-    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
-ValueError: Expected a non-empty value for `file_id` but received None
-2025-01-09 09:28:55 - INFO - Starting batch processing for 5 records
-2025-01-09 09:28:55 - INFO - Created 5 batch tasks
-2025-01-09 09:28:55 - INFO - Wrote batch tasks to JSONL file
-2025-01-09 09:28:56 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-09 09:28:56 - INFO - Created batch file with ID: file-W5vbBiAF2zKFsUnXHUFH4J
-2025-01-09 09:28:57 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-09 09:28:57 - INFO - Created batch job with ID: batch_677fdd29c9fc8190a686c34f62d95d9c
-2025-01-09 09:28:58 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fdd29c9fc8190a686c34f62d95d9c "HTTP/1.1 200 OK"
-2025-01-09 09:28:58 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-09 09:29:58 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fdd29c9fc8190a686c34f62d95d9c "HTTP/1.1 200 OK"
-2025-01-09 09:29:58 - INFO - Batch job status: cancelling (attempt 2/3)
-2025-01-09 09:30:59 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fdd29c9fc8190a686c34f62d95d9c "HTTP/1.1 200 OK"
-2025-01-09 09:30:59 - INFO - Batch job status: cancelling (attempt 3/3)
-2025-01-09 09:31:59 - ERROR - Error in batch processing: Expected a non-empty value for `file_id` but received None
-Traceback (most recent call last):
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 114, in process_ner_batch
-    result = client.files.content(batch_job.output_file_id).content
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
-    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
-ValueError: Expected a non-empty value for `file_id` but received None
-2025-01-09 09:31:59 - INFO - Cleaned up temporary files
-2025-01-09 09:31:59 - ERROR - Error in test batch processing: Expected a non-empty value for `file_id` but received None
-Traceback (most recent call last):
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/tests/tempCodeRunnerFile.py", line 45, in test_batch_processing
-    result_df = process_ner_batch(
-                ^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/scripts/batch_processing_jan.py", line 114, in process_ner_batch
-    result = client.files.content(batch_job.output_file_id).content
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/venv/lib/python3.11/site-packages/openai/resources/files.py", line 288, in content
-    raise ValueError(f"Expected a non-empty value for `file_id` but received {file_id!r}")
-ValueError: Expected a non-empty value for `file_id` but received None
-2025-01-09 09:33:04 - INFO - Starting batch processing for 5 records
-2025-01-09 09:33:04 - INFO - Created 5 batch tasks
-2025-01-09 09:33:04 - INFO - Wrote batch tasks to JSONL file
-2025-01-09 09:33:05 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-09 09:33:05 - INFO - Created batch file with ID: file-AePEyxTGVgcUZvvq9Vcnze
-2025-01-09 09:33:06 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-09 09:33:06 - INFO - Created batch job with ID: batch_677fde21db348190bf5186e2bdcdef0e
-2025-01-09 09:33:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fde21db348190bf5186e2bdcdef0e "HTTP/1.1 200 OK"
-2025-01-09 09:33:06 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-09 09:34:06 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fde21db348190bf5186e2bdcdef0e "HTTP/1.1 200 OK"
-2025-01-09 09:34:06 - INFO - Batch job status: in_progress (attempt 2/3)
-2025-01-09 09:35:07 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fde21db348190bf5186e2bdcdef0e "HTTP/1.1 200 OK"
-2025-01-09 09:35:07 - INFO - Batch job status: completed (attempt 3/3)
-2025-01-09 09:35:09 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-3JcQ4yGDPD4AoTc8G5UWVj/content "HTTP/1.1 200 OK"
-2025-01-09 09:35:09 - INFO - Batch results saved to batch_results.jsonl
-2025-01-09 09:35:09 - INFO - Processing batch results
-2025-01-09 09:35:09 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-3JcQ4yGDPD4AoTc8G5UWVj/content "HTTP/1.1 200 OK"
-2025-01-09 09:35:10 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: _Hüküm no:
-2025-01-09 09:35:10 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 1_Hüküm no:
-2025-01-09 09:35:10 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 2_Hüküm no:
-2025-01-09 09:35:10 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 3_Hüküm no:
-2025-01-09 09:35:10 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 4_Hüküm no:
-2025-01-09 09:35:10 - INFO - Batch processing completed successfully
-2025-01-09 09:35:10 - INFO - Cleaned up temporary files
-2025-01-09 09:35:10 - INFO - Processed 0 rows
-2025-01-09 09:35:10 - INFO - 
-First few rows of results:
-2025-01-09 09:35:10 - INFO - Empty DataFrame
-Columns: []
-Index: []
-2025-01-09 09:42:11 - INFO - Starting batch processing for 5 records
-2025-01-09 09:42:11 - INFO - Created 5 batch tasks
-2025-01-09 09:42:11 - INFO - Wrote batch tasks to JSONL file
-2025-01-09 09:42:12 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-09 09:42:12 - INFO - Created batch file with ID: file-6uK9VsFSwYYFkxCao1VyZS
-2025-01-09 09:42:13 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-09 09:42:13 - INFO - Created batch job with ID: batch_677fe0459efc8190afadbab79df23d9f
-2025-01-09 09:42:13 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe0459efc8190afadbab79df23d9f "HTTP/1.1 200 OK"
-2025-01-09 09:42:13 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-09 09:43:14 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe0459efc8190afadbab79df23d9f "HTTP/1.1 200 OK"
-2025-01-09 09:43:14 - INFO - Batch job status: completed (attempt 2/3)
-2025-01-09 09:43:15 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-FHFKdJHCB88vhYS8cEGw4j/content "HTTP/1.1 200 OK"
-2025-01-09 09:43:15 - INFO - Batch results saved to batch_results.jsonl
-2025-01-09 09:43:15 - INFO - Processing batch results
-2025-01-09 09:43:15 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-FHFKdJHCB88vhYS8cEGw4j/content "HTTP/1.1 200 OK"
-2025-01-09 09:43:15 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1641_Hüküm no:
-2025-01-09 09:43:15 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1642_Hüküm no:
-2025-01-09 09:43:15 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1643_Hüküm no:
-2025-01-09 09:43:15 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1644_Hüküm no:
-2025-01-09 09:43:15 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1645_Hüküm no:
-2025-01-09 09:43:15 - INFO - Batch processing completed successfully
-2025-01-09 09:43:15 - INFO - Cleaned up temporary files
-2025-01-09 09:43:15 - INFO - Processed 0 rows
-2025-01-09 09:43:15 - INFO - 
-First few rows of results:
-2025-01-09 09:43:15 - INFO - Empty DataFrame
-Columns: []
-Index: []
-2025-01-09 09:47:47 - INFO - Starting batch processing for 5 records
-2025-01-09 09:47:47 - INFO - Created 5 batch tasks
-2025-01-09 09:47:47 - INFO - Wrote batch tasks to JSONL file
-2025-01-09 09:47:48 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-09 09:47:48 - INFO - Created batch file with ID: file-XFvJw2Gd6qdEdjezkgQyuB
-2025-01-09 09:47:49 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-09 09:47:49 - INFO - Created batch job with ID: batch_677fe19572408190b7fb52906dd7c118
-2025-01-09 09:47:50 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe19572408190b7fb52906dd7c118 "HTTP/1.1 200 OK"
-2025-01-09 09:47:50 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-09 09:48:50 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe19572408190b7fb52906dd7c118 "HTTP/1.1 200 OK"
-2025-01-09 09:48:50 - INFO - Batch job status: in_progress (attempt 2/3)
-2025-01-09 09:49:50 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe19572408190b7fb52906dd7c118 "HTTP/1.1 200 OK"
-2025-01-09 09:49:50 - INFO - Batch job status: completed (attempt 3/3)
-2025-01-09 09:49:51 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-MJGWbCwzkJJWu5gBstDGS6/content "HTTP/1.1 200 OK"
-2025-01-09 09:49:51 - INFO - Batch results saved to batch_results.jsonl
-2025-01-09 09:49:51 - INFO - Processing batch results
-2025-01-09 09:49:52 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-MJGWbCwzkJJWu5gBstDGS6/content "HTTP/1.1 200 OK"
-2025-01-09 09:49:52 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1641_Hüküm no:
-2025-01-09 09:49:52 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1642_Hüküm no:
-2025-01-09 09:49:52 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1643_Hüküm no:
-2025-01-09 09:49:52 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1644_Hüküm no:
-2025-01-09 09:49:52 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1645_Hüküm no:
-2025-01-09 09:49:52 - INFO - Batch processing completed successfully
-2025-01-09 09:49:52 - INFO - Cleaned up temporary files
-2025-01-09 09:49:52 - INFO - Processed 0 rows
-2025-01-09 09:49:52 - INFO - 
-First few rows of results:
-2025-01-09 09:49:52 - INFO - Empty DataFrame
-Columns: []
-Index: []
-2025-01-09 09:53:52 - INFO - Starting batch processing for 5 records
-2025-01-09 09:53:52 - INFO - Created 5 batch tasks
-2025-01-09 09:53:52 - INFO - Wrote batch tasks to JSONL file
-2025-01-09 09:53:53 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-09 09:53:53 - INFO - Created batch file with ID: file-NyjCgpCu9M1XfNz1vpWKLG
-2025-01-09 09:53:54 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-09 09:53:54 - INFO - Created batch job with ID: batch_677fe30257548190ab9a39463b0e5f61
-2025-01-09 09:53:54 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe30257548190ab9a39463b0e5f61 "HTTP/1.1 200 OK"
-2025-01-09 09:53:54 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-09 09:54:55 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe30257548190ab9a39463b0e5f61 "HTTP/1.1 200 OK"
-2025-01-09 09:54:55 - INFO - Batch job status: in_progress (attempt 2/3)
-2025-01-09 09:55:55 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe30257548190ab9a39463b0e5f61 "HTTP/1.1 200 OK"
-2025-01-09 09:55:55 - INFO - Batch job status: completed (attempt 3/3)
-2025-01-09 09:55:56 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-S8tPVJwbjNtjWEEoxMSV6r/content "HTTP/1.1 200 OK"
-2025-01-09 09:55:56 - INFO - Batch results saved to batch_results.jsonl
-2025-01-09 09:55:56 - INFO - Processing batch results
-2025-01-09 09:56:07 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-S8tPVJwbjNtjWEEoxMSV6r/content "HTTP/1.1 200 OK"
-2025-01-09 09:56:07 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1641_Hüküm no:
-2025-01-09 09:56:07 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1642_Hüküm no:
-2025-01-09 09:56:07 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1643_Hüküm no:
-2025-01-09 09:56:07 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1644_Hüküm no:
-2025-01-09 09:56:07 - ERROR - No matching case_id found: üsküdar mahkemesi_hüküm no: 1645_Hüküm no:
-2025-01-09 09:56:07 - INFO - Batch processing completed successfully
-2025-01-09 09:56:07 - INFO - Cleaned up temporary files
-2025-01-09 09:56:07 - INFO - Processed 0 rows
-2025-01-09 09:56:07 - INFO - 
-First few rows of results:
-2025-01-09 09:56:07 - INFO - Empty DataFrame
-Columns: []
-Index: []
-2025-01-09 09:58:56 - INFO - Starting batch processing for 6 records
-2025-01-09 09:58:56 - INFO - Created 6 batch tasks
-2025-01-09 09:58:56 - INFO - Wrote batch tasks to JSONL file
-2025-01-09 09:59:03 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
-2025-01-09 09:59:03 - INFO - Created batch file with ID: file-BWn7V6skgimY8gzBTgXarD
-2025-01-09 09:59:04 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
-2025-01-09 09:59:04 - INFO - Created batch job with ID: batch_677fe4385f888190b8ff18b6614918ed
-2025-01-09 09:59:04 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe4385f888190b8ff18b6614918ed "HTTP/1.1 200 OK"
-2025-01-09 09:59:04 - INFO - Batch job status: validating (attempt 1/3)
-2025-01-09 10:00:05 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe4385f888190b8ff18b6614918ed "HTTP/1.1 200 OK"
-2025-01-09 10:00:05 - INFO - Batch job status: in_progress (attempt 2/3)
-2025-01-09 10:01:05 - INFO - HTTP Request: GET https://api.openai.com/v1/batches/batch_677fe4385f888190b8ff18b6614918ed "HTTP/1.1 200 OK"
-2025-01-09 10:01:05 - INFO - Batch job status: completed (attempt 3/3)
-2025-01-09 10:01:06 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-CZJeRx4ncnR8VrtsetMyAx/content "HTTP/1.1 200 OK"
-2025-01-09 10:01:06 - INFO - Batch results saved to batch_results.jsonl
-2025-01-09 10:01:06 - INFO - Processing batch results
-2025-01-09 10:01:07 - INFO - HTTP Request: GET https://api.openai.com/v1/files/file-CZJeRx4ncnR8VrtsetMyAx/content "HTTP/1.1 200 OK"
-2025-01-09 10:01:07 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 100_Hüküm no:
-2025-01-09 10:01:07 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 101_Hüküm no:
-2025-01-09 10:01:07 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 102_Hüküm no:
-2025-01-09 10:01:07 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 103_Hüküm no:
-2025-01-09 10:01:07 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 104_Hüküm no:
-2025-01-09 10:01:07 - ERROR - No matching case_id found: adalar mahkemesi_hüküm no: 105_Hüküm no:
-2025-01-09 10:01:07 - INFO - Batch processing completed successfully
-2025-01-09 10:01:07 - INFO - Cleaned up temporary files
-2025-01-09 10:01:07 - INFO - Processed 0 rows
-2025-01-09 10:01:07 - INFO - 
-First few rows of results:
-2025-01-09 10:01:07 - INFO - Empty DataFrame
-Columns: []
-Index: []
+2025-01-09 15:53:57 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-09 15:53:58 - INFO - Starting batch processing for 314 records
+2025-01-09 15:53:58 - INFO - Created 314 batch tasks
+2025-01-09 15:53:58 - INFO - Wrote batch tasks to JSONL file
+2025-01-09 15:54:01 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-09 15:54:01 - INFO - Created batch file with ID: file-ApyciPK5QUmvbkffbUZGCu
+2025-01-09 15:54:02 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-09 15:54:02 - INFO - Created batch job with ID: batch_6780376a6b748190a8736b36aa7cb6a8
+2025-01-09 15:54:02 - INFO - Cleaned up temporary files
+2025-01-09 15:54:02 - INFO - Processed the batch with batch_6780376a6b748190a8736b36aa7cb6a8
+2025-01-09 15:54:54 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-09 15:54:55 - INFO - Starting batch processing for 782 records
+2025-01-09 15:54:55 - INFO - Created 782 batch tasks
+2025-01-09 15:54:55 - INFO - Wrote batch tasks to JSONL file
+2025-01-09 15:55:01 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-09 15:55:01 - INFO - Created batch file with ID: file-AS6VQtiKpMvqSKugdJDK9b
+2025-01-09 15:55:01 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-09 15:55:01 - INFO - Created batch job with ID: batch_678037a57a208190b6b565a07d8824f9
+2025-01-09 15:55:01 - INFO - Cleaned up temporary files
+2025-01-09 15:55:01 - INFO - Processed the batch with batch_678037a57a208190b6b565a07d8824f9
+2025-01-09 16:26:13 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-09 16:26:15 - INFO - Starting batch processing for 631 records
+2025-01-09 16:26:15 - INFO - Created 631 batch tasks
+2025-01-09 16:26:15 - INFO - Wrote batch tasks to JSONL file
+2025-01-09 16:26:25 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-09 16:26:25 - INFO - Created batch file with ID: file-GtF1wDvjFtkaysSSAdSDL5
+2025-01-09 16:26:26 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-09 16:26:26 - INFO - Created batch job with ID: batch_67803f01e59881908ab284ed8ab36a8a
+2025-01-09 16:26:26 - INFO - Cleaned up temporary files
+2025-01-09 16:26:26 - INFO - Processed the batch with batch_67803f01e59881908ab284ed8ab36a8a
+2025-01-09 16:27:21 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-09 16:27:22 - INFO - Starting batch processing for 631 records
+2025-01-09 16:27:22 - INFO - Created 631 batch tasks
+2025-01-09 16:27:22 - INFO - Wrote batch tasks to JSONL file
+2025-01-09 16:27:32 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-09 16:27:32 - INFO - Created batch file with ID: file-3gjW5fF5PZssnyeXH4Dydy
+2025-01-09 16:27:33 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-09 16:27:33 - INFO - Created batch job with ID: batch_67803f458ff08190a23ab9b29ab974c7
+2025-01-09 16:27:33 - INFO - Cleaned up temporary files
+2025-01-09 16:27:33 - INFO - Processed the batch with batch_67803f458ff08190a23ab9b29ab974c7
+2025-01-09 16:29:49 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-09 16:29:50 - INFO - Starting batch processing for 373 records
+2025-01-09 16:29:50 - INFO - Created 373 batch tasks
+2025-01-09 16:29:50 - INFO - Wrote batch tasks to JSONL file
+2025-01-09 16:29:56 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-09 16:29:56 - INFO - Created batch file with ID: file-HFDcY8mkfFYYTwETkSXjTA
+2025-01-09 16:29:57 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-09 16:29:57 - INFO - Created batch job with ID: batch_67803fd50560819099291b6384467492
+2025-01-09 16:29:57 - INFO - Cleaned up temporary files
+2025-01-09 16:29:57 - INFO - Processed the batch with batch_67803fd50560819099291b6384467492
+2025-01-09 16:32:09 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-09 16:32:10 - INFO - Starting batch processing for 606 records
+2025-01-09 16:32:10 - INFO - Created 606 batch tasks
+2025-01-09 16:32:10 - INFO - Wrote batch tasks to JSONL file
+2025-01-09 16:32:15 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-09 16:32:15 - INFO - Created batch file with ID: file-HeR2gDbeagcZwzGWJhzShS
+2025-01-09 16:32:16 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-09 16:32:16 - INFO - Created batch job with ID: batch_6780405fdd7481908c8e2378f74e5ee4
+2025-01-09 16:32:16 - INFO - Cleaned up temporary files
+2025-01-09 16:32:16 - INFO - Processed the batch with batch_6780405fdd7481908c8e2378f74e5ee4
+2025-01-10 09:50:11 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 09:50:12 - INFO - Starting batch processing for 871 records
+2025-01-10 09:50:12 - INFO - Created 871 batch tasks
+2025-01-10 09:50:12 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 09:50:22 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 09:50:22 - INFO - Created batch file with ID: file-8995DJwPUJfMckmXv3b7ML
+2025-01-10 09:50:23 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 09:50:23 - INFO - Created batch job with ID: batch_678133af37f08190804947a8c27d86e9
+2025-01-10 09:50:23 - INFO - Cleaned up temporary files
+2025-01-10 09:50:23 - INFO - Processed the batch with batch_678133af37f08190804947a8c27d86e9
+2025-01-10 09:52:31 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 09:52:33 - INFO - Starting batch processing for 1123 records
+2025-01-10 09:52:33 - INFO - Created 1123 batch tasks
+2025-01-10 09:52:33 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 09:52:36 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 09:52:36 - INFO - Created batch file with ID: file-WK1nUXsP32ZadNDWjm3hJJ
+2025-01-10 09:52:37 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 09:52:37 - INFO - Created batch job with ID: batch_6781343565888190a7b62b7f43cee9a5
+2025-01-10 09:52:37 - INFO - Cleaned up temporary files
+2025-01-10 09:52:37 - INFO - Processed the batch with batch_6781343565888190a7b62b7f43cee9a5
