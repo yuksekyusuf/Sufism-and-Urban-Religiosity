@@ -41,9 +41,19 @@ def process_ner_batch(df, summary_column_name, case_id_column_name):
     try:
        # Step 1: Create tasks
         tasks = []
+        seen_ids = set()
         for index, row in df.iterrows():
+            custom_id = f"{row[case_id_column_name]}"
+
+            # Skip records with duplicate IDs
+            if custom_id in seen_ids:
+                logger.warning(f"Skipping duplicate custom_id: {custom_id} at index {index}")
+                continue
+                
+            seen_ids.add(custom_id)
+
             task = {
-                "custom_id": f"{row[case_id_column_name]}",
+                "custom_id": custom_id,
                 "method": "POST",
                 "url": "/v1/chat/completions",
                 "body": {
@@ -84,10 +94,10 @@ def process_ner_batch(df, summary_column_name, case_id_column_name):
     except Exception as e:
         logger.error(f"Error in batch processing: {e}", exc_info=True)
         raise
-    finally:
-        if os.path.exists(batch_file_name):
-           os.remove(batch_file_name)
-           logger.info("Cleaned up temporary files")
+    # finally:
+    #     if os.path.exists(batch_file_name):
+    #        os.remove(batch_file_name)
+    #        logger.info("Cleaned up temporary files")
 
 
 

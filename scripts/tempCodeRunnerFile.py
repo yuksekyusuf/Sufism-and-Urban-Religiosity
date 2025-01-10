@@ -33,7 +33,7 @@ def test_batch_processing():
         
         # For testing, let's use a small subset
         df['sicil_id'] = df['court_title'] + '_' + df['sicil_number'].astype(str)
-        selected_sicil = "Bab Mahkemesi_3"
+        selected_sicil = "Evkaf-ı Hümâyûn Müfettişliği_1"
         filtered_df = df[df['sicil_id'] == selected_sicil].copy()
 
         # Define column names
@@ -48,7 +48,6 @@ def test_batch_processing():
             case_id_column_name=case_id_column,
         )
 
-        # Check results
         logger.info(f"Processed the batch with {batch_id}")
     except Exception as e:
         logger.error(f"Error in test batch processing: {e}", exc_info=True)
