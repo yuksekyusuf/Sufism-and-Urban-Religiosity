@@ -78,3 +78,212 @@
 2025-01-10 09:52:37 - INFO - Created batch job with ID: batch_6781343565888190a7b62b7f43cee9a5
 2025-01-10 09:52:37 - INFO - Cleaned up temporary files
 2025-01-10 09:52:37 - INFO - Processed the batch with batch_6781343565888190a7b62b7f43cee9a5
+2025-01-10 21:48:39 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:48:40 - INFO - Starting batch processing for 1161 records
+2025-01-10 21:48:40 - WARNING - Skipping duplicate custom_id: bab mahkemesi_3_hüküm no: kapa at index 1157
+2025-01-10 21:48:41 - INFO - Created 1160 batch tasks
+2025-01-10 21:48:41 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:48:44 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:48:44 - INFO - Created batch file with ID: file-T84o3puXKCUL7RX1oQ2tXJ
+2025-01-10 21:48:45 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:48:45 - INFO - Created batch job with ID: batch_6781dc0d9ee88190aac8fb128a2910d2
+2025-01-10 21:48:45 - INFO - Processed the batch with batch_6781dc0d9ee88190aac8fb128a2910d2
+2025-01-10 21:49:02 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:49:04 - INFO - Starting batch processing for 538 records
+2025-01-10 21:49:04 - INFO - Created 538 batch tasks
+2025-01-10 21:49:04 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:49:06 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:49:06 - INFO - Created batch file with ID: file-5Aiz31FVv1iZfztiJ7UVdT
+2025-01-10 21:49:07 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:49:07 - INFO - Created batch job with ID: batch_6781dc2330d08190aafd702f22265440
+2025-01-10 21:49:07 - INFO - Processed the batch with batch_6781dc2330d08190aafd702f22265440
+2025-01-10 21:49:27 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:49:29 - INFO - Starting batch processing for 353 records
+2025-01-10 21:49:29 - INFO - Created 353 batch tasks
+2025-01-10 21:49:29 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:49:31 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:49:31 - INFO - Created batch file with ID: file-LVEVTgyvcwixQkAex7yxat
+2025-01-10 21:49:32 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:49:32 - INFO - Created batch job with ID: batch_6781dc3c0d4881909942b4753a5d806c
+2025-01-10 21:49:32 - INFO - Processed the batch with batch_6781dc3c0d4881909942b4753a5d806c
+2025-01-10 21:49:44 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:49:46 - INFO - Starting batch processing for 453 records
+2025-01-10 21:49:46 - INFO - Created 453 batch tasks
+2025-01-10 21:49:46 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:49:48 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:49:48 - INFO - Created batch file with ID: file-NgPuz9ZJX9gdvbsDeFN95e
+2025-01-10 21:49:49 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:49:49 - INFO - Created batch job with ID: batch_6781dc4ccf888190ab1fbc4a47dad601
+2025-01-10 21:49:49 - INFO - Processed the batch with batch_6781dc4ccf888190ab1fbc4a47dad601
+2025-01-10 21:50:06 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:50:07 - INFO - Starting batch processing for 233 records
+2025-01-10 21:50:07 - INFO - Created 233 batch tasks
+2025-01-10 21:50:07 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:50:09 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:50:09 - INFO - Created batch file with ID: file-6aac29Ybf3VCXicCRbHWvD
+2025-01-10 21:50:09 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:50:09 - INFO - Created batch job with ID: batch_6781dc6194288190849359064b18d1be
+2025-01-10 21:50:09 - INFO - Processed the batch with batch_6781dc6194288190849359064b18d1be
+2025-01-10 21:50:30 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:50:32 - INFO - Starting batch processing for 263 records
+2025-01-10 21:50:32 - INFO - Created 263 batch tasks
+2025-01-10 21:50:32 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:50:34 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:50:34 - INFO - Created batch file with ID: file-Jp59QZYNbaoPTLEjmQLQBF
+2025-01-10 21:50:34 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:50:34 - INFO - Created batch job with ID: batch_6781dc7acad0819096f039ceeb9cf528
+2025-01-10 21:50:34 - INFO - Processed the batch with batch_6781dc7acad0819096f039ceeb9cf528
+2025-01-10 21:50:52 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:50:53 - INFO - Starting batch processing for 391 records
+2025-01-10 21:50:53 - INFO - Created 391 batch tasks
+2025-01-10 21:50:53 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:50:55 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:50:55 - INFO - Created batch file with ID: file-6jqipCkY8hjACgSvv2Tvu6
+2025-01-10 21:50:56 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:50:56 - INFO - Created batch job with ID: batch_6781dc906eb88190833d0b420165e9a8
+2025-01-10 21:50:56 - INFO - Processed the batch with batch_6781dc906eb88190833d0b420165e9a8
+2025-01-10 21:51:59 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:52:01 - INFO - Starting batch processing for 562 records
+2025-01-10 21:52:01 - INFO - Created 562 batch tasks
+2025-01-10 21:52:01 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:52:03 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:52:03 - INFO - Created batch file with ID: file-Rkp6TcLj2xXabexFdaYPCy
+2025-01-10 21:52:04 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:52:04 - INFO - Created batch job with ID: batch_6781dcd3f1f081909139c12dd28948d7
+2025-01-10 21:52:04 - INFO - Processed the batch with batch_6781dcd3f1f081909139c12dd28948d7
+2025-01-10 21:54:05 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:54:07 - INFO - Starting batch processing for 381 records
+2025-01-10 21:54:07 - INFO - Created 381 batch tasks
+2025-01-10 21:54:07 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:54:09 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:54:09 - INFO - Created batch file with ID: file-2dtqJyGwGtFqghD7Ee73GY
+2025-01-10 21:54:10 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:54:10 - INFO - Created batch job with ID: batch_6781dd51f2248190b5896f8d8f067504
+2025-01-10 21:54:10 - INFO - Processed the batch with batch_6781dd51f2248190b5896f8d8f067504
+2025-01-10 21:57:21 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:57:22 - INFO - Starting batch processing for 346 records
+2025-01-10 21:57:22 - INFO - Created 346 batch tasks
+2025-01-10 21:57:22 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:57:24 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:57:24 - INFO - Created batch file with ID: file-E1G6RLxebLwXDmzFnBxZaj
+2025-01-10 21:57:24 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:57:24 - INFO - Created batch job with ID: batch_6781de14e43c81908078737d64e09589
+2025-01-10 21:57:24 - INFO - Processed the batch with batch_6781de14e43c81908078737d64e09589
+2025-01-10 21:57:48 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:57:49 - INFO - Starting batch processing for 238 records
+2025-01-10 21:57:49 - INFO - Created 238 batch tasks
+2025-01-10 21:57:49 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:57:51 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:57:51 - INFO - Created batch file with ID: file-SFUCzgq65HNJ7PD1yV4GHg
+2025-01-10 21:57:51 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:57:51 - INFO - Created batch job with ID: batch_6781de2f9da4819095f83a0b22d4cc05
+2025-01-10 21:57:51 - INFO - Processed the batch with batch_6781de2f9da4819095f83a0b22d4cc05
+2025-01-10 21:58:06 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:58:08 - INFO - Starting batch processing for 223 records
+2025-01-10 21:58:08 - INFO - Created 223 batch tasks
+2025-01-10 21:58:08 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:58:09 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:58:09 - INFO - Created batch file with ID: file-AQdHXpxgy34yovC3LnQjQn
+2025-01-10 21:58:10 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:58:10 - INFO - Created batch job with ID: batch_6781de42830881909c2c7ebed5d1bda6
+2025-01-10 21:58:10 - INFO - Processed the batch with batch_6781de42830881909c2c7ebed5d1bda6
+2025-01-10 21:58:31 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:58:33 - INFO - Starting batch processing for 536 records
+2025-01-10 21:58:33 - WARNING - Skipping duplicate custom_id: i̇stanbul mahkemesi_191_hüküm no: 199 at index 35336
+2025-01-10 21:58:33 - INFO - Created 535 batch tasks
+2025-01-10 21:58:33 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:58:35 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:58:35 - INFO - Created batch file with ID: file-EMGTY7y2xPdqCN5g3cRBvD
+2025-01-10 21:58:36 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:58:36 - INFO - Created batch job with ID: batch_6781de5c86dc8190861e07d1207c443d
+2025-01-10 21:58:36 - INFO - Processed the batch with batch_6781de5c86dc8190861e07d1207c443d
+2025-01-10 21:58:50 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:58:51 - INFO - Starting batch processing for 340 records
+2025-01-10 21:58:51 - INFO - Created 340 batch tasks
+2025-01-10 21:58:51 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:58:53 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:58:53 - INFO - Created batch file with ID: file-7jcuHBgcYkkx2NvthmbEHM
+2025-01-10 21:58:54 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:58:54 - INFO - Created batch job with ID: batch_6781de6e0304819080444aae8e65f082
+2025-01-10 21:58:54 - INFO - Processed the batch with batch_6781de6e0304819080444aae8e65f082
+2025-01-10 21:59:11 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:59:12 - INFO - Starting batch processing for 750 records
+2025-01-10 21:59:12 - INFO - Created 750 batch tasks
+2025-01-10 21:59:12 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:59:14 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:59:14 - INFO - Created batch file with ID: file-6CD4ub63NEefnybQadqELH
+2025-01-10 21:59:15 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:59:15 - INFO - Created batch job with ID: batch_6781de8341048190a0221b37abeea755
+2025-01-10 21:59:15 - INFO - Processed the batch with batch_6781de8341048190a0221b37abeea755
+2025-01-10 21:59:46 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 21:59:47 - INFO - Starting batch processing for 497 records
+2025-01-10 21:59:47 - INFO - Created 497 batch tasks
+2025-01-10 21:59:47 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 21:59:49 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 21:59:49 - INFO - Created batch file with ID: file-GLHHsF4pZqn27F3KvLhPtW
+2025-01-10 21:59:49 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 21:59:49 - INFO - Created batch job with ID: batch_6781dea5aaf88190b1ea7fc1d83e957c
+2025-01-10 21:59:49 - INFO - Processed the batch with batch_6781dea5aaf88190b1ea7fc1d83e957c
+2025-01-10 22:02:51 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 22:02:53 - INFO - Starting batch processing for 507 records
+2025-01-10 22:02:53 - INFO - Created 507 batch tasks
+2025-01-10 22:02:53 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 22:02:55 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 22:02:55 - INFO - Created batch file with ID: file-KCiA1jGbMf7kUNTUWLXv4T
+2025-01-10 22:02:55 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 22:02:55 - INFO - Created batch job with ID: batch_6781df5f8bd081908de3125a141259a5
+2025-01-10 22:02:55 - INFO - Processed the batch with batch_6781df5f8bd081908de3125a141259a5
+2025-01-10 22:03:36 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 22:03:38 - INFO - Starting batch processing for 543 records
+2025-01-10 22:03:38 - INFO - Created 543 batch tasks
+2025-01-10 22:03:38 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 22:03:40 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 22:03:40 - INFO - Created batch file with ID: file-EBEz6XcSeSy4NATAxh9ZyQ
+2025-01-10 22:03:41 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 22:03:41 - INFO - Created batch job with ID: batch_6781df8cfca08190b5b4d2bd925316a8
+2025-01-10 22:03:41 - INFO - Processed the batch with batch_6781df8cfca08190b5b4d2bd925316a8
+2025-01-10 22:04:29 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 22:04:31 - INFO - Starting batch processing for 1032 records
+2025-01-10 22:04:31 - INFO - Created 1032 batch tasks
+2025-01-10 22:04:31 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 22:04:33 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 22:04:33 - INFO - Created batch file with ID: file-B3USf4zWMMsGx9uY1nfGME
+2025-01-10 22:04:34 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 22:04:34 - INFO - Created batch job with ID: batch_6781dfc21c2c8190aa68c74098c4256a
+2025-01-10 22:04:34 - INFO - Processed the batch with batch_6781dfc21c2c8190aa68c74098c4256a
+2025-01-10 22:05:03 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 22:05:04 - INFO - Starting batch processing for 645 records
+2025-01-10 22:05:04 - INFO - Created 645 batch tasks
+2025-01-10 22:05:05 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 22:05:07 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 22:05:07 - INFO - Created batch file with ID: file-VGxrhbhXteQTwPyahRzzdh
+2025-01-10 22:05:07 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 22:05:07 - INFO - Created batch job with ID: batch_6781dfe3a6a0819091f9d0d5c1b5765a
+2025-01-10 22:05:07 - INFO - Processed the batch with batch_6781dfe3a6a0819091f9d0d5c1b5765a
+2025-01-10 22:06:34 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 22:06:36 - INFO - Starting batch processing for 894 records
+2025-01-10 22:06:36 - INFO - Created 894 batch tasks
+2025-01-10 22:06:36 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 22:06:38 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 22:06:38 - INFO - Created batch file with ID: file-5922q6g5VRWmuzZQPjRfy3
+2025-01-10 22:06:39 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 22:06:39 - INFO - Created batch job with ID: batch_6781e03eed94819098dc65e2ca371bb7
+2025-01-10 22:06:39 - INFO - Processed the batch with batch_6781e03eed94819098dc65e2ca371bb7
+2025-01-10 22:07:04 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 22:07:05 - INFO - Starting batch processing for 572 records
+2025-01-10 22:07:05 - INFO - Created 572 batch tasks
+2025-01-10 22:07:05 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 22:07:07 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 22:07:07 - INFO - Created batch file with ID: file-MsnfVr2hvEvEYQUTsVvuRd
+2025-01-10 22:07:08 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 22:07:08 - INFO - Created batch job with ID: batch_6781e05bfbe881908f4b1cd6513d6909
+2025-01-10 22:07:08 - INFO - Processed the batch with batch_6781e05bfbe881908f4b1cd6513d6909
+2025-01-10 22:07:32 - INFO - Attempting to read CSV from: /Users/ahmetyusufyuksek/Documents/GitHub/Sufism-and-Urban-Religiosity/data/sicil_records.csv
+2025-01-10 22:07:33 - INFO - Starting batch processing for 657 records
+2025-01-10 22:07:33 - INFO - Created 657 batch tasks
+2025-01-10 22:07:33 - INFO - Wrote batch tasks to JSONL file
+2025-01-10 22:07:35 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-01-10 22:07:36 - INFO - Created batch file with ID: file-BtQ2fvyKjE8aEW1aCixHHf
+2025-01-10 22:07:36 - INFO - HTTP Request: POST https://api.openai.com/v1/batches "HTTP/1.1 200 OK"
+2025-01-10 22:07:36 - INFO - Created batch job with ID: batch_6781e0789bf8819094bcbc2d3e4a0f22
+2025-01-10 22:07:36 - INFO - Processed the batch with batch_6781e0789bf8819094bcbc2d3e4a0f22

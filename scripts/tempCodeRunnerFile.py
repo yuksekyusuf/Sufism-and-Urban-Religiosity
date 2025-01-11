@@ -33,7 +33,7 @@ def test_batch_processing():
         
         # For testing, let's use a small subset
         df['sicil_id'] = df['court_title'] + '_' + df['sicil_number'].astype(str)
-        selected_sicil = "Evkaf-ı Hümâyûn Müfettişliği_1"
+        selected_sicil = "Üsküdar Mahkemesi_14"
         filtered_df = df[df['sicil_id'] == selected_sicil].copy()
 
         # Define column names

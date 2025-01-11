@@ -139,7 +139,7 @@ def main():
     logger.info(f"Loading data from {data_path}")
     df = pd.read_csv(data_path)
         
-    # Create a unique ID by concatenating 'court_title', 'sicil_number', and 'case_number' with a separator
+    # Create a unique ID by concatenating 'court_titple', 'sicil_number', and 'case_number' with a separator
     df['case_id'] = (df['court_title'] + '_' + 
                     df['sicil_number'].astype(str) + '_' + 
                     df['case_number']).str.lower()
@@ -156,6 +156,6 @@ def main():
     else:
         print(f"Failed to process batch job: {error}")
         sys.exit(1)
-        
+
 if __name__ == "__main__":
     main()
